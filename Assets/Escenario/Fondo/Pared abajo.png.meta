@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ce540528939a9634f8fe623ffaa4c154
+guid: dd3487c77dbfa714f9c8570303778e5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8749250052993323910
-    second: Escenario principal 2_0
+      213: 3598067543946391419
+    second: Pared abajo_0
+  - first:
+      213: 3212443966549434209
+    second: Pared abajo_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escenario principal 2_0
+      name: Pared abajo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1824
-        height: 1024
+        width: 78
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6831cb351949b6970800000000000000
-      internalID: 8749250052993323910
+      spriteID: b7f69ca2e57eee130800000000000000
+      internalID: 3598067543946391419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pared abajo_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 1455
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f960f64c4e49c20800000000000000
+      internalID: 3212443966549434209
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escenario principal 2_0: 8749250052993323910
+      Pared abajo_0: 3598067543946391419
+      Pared abajo_1: 3212443966549434209
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

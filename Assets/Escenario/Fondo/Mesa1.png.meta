@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: ce540528939a9634f8fe623ffaa4c154
+guid: dfec3c3666af42844ba850b1b5dc4965
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8749250052993323910
-    second: Escenario principal 2_0
+      213: 8453564022729292929
+    second: Mesa1_0
+  - first:
+      213: -1291540967492208216
+    second: Mesa1_1
+  - first:
+      213: 5515422605291121963
+    second: Mesa1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escenario principal 2_0
+      name: Mesa1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1824
-        height: 1024
+        x: 26
+        y: 577
+        width: 56
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6831cb351949b6970800000000000000
-      internalID: 8749250052993323910
+      spriteID: 18c3dc490b7115570800000000000000
+      internalID: 8453564022729292929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa1_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 533
+        width: 179
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a933cb3556831ee0800000000000000
+      internalID: -1291540967492208216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa1_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 578
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d698633a7ba8c40800000000000000
+      internalID: 5515422605291121963
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2f67d62f4b7038a49a73d0f6a5cba417
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escenario principal 2_0: 8749250052993323910
+      Mesa1_0: 8453564022729292929
+      Mesa1_1: -1291540967492208216
+      Mesa1_2: 5515422605291121963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
