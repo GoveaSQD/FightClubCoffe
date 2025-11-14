@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ce540528939a9634f8fe623ffaa4c154
+guid: a7fb5ec5700a7204785ea0933814b434
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8749250052993323910
-    second: Escenario principal 2_0
+      213: 7517210187583176937
+    second: Pared derecha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escenario principal 2_0
+      name: Pared derecha_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1766
         y: 0
-        width: 1824
+        width: 58
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6831cb351949b6970800000000000000
-      internalID: 8749250052993323910
+      spriteID: 9e0c7d476de725860800000000000000
+      internalID: 7517210187583176937
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escenario principal 2_0: 8749250052993323910
+      Pared derecha_0: 7517210187583176937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

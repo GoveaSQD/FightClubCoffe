@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Jugador1 : MonoBehaviour
 {
-    public float speed = 5;
-    public Rigidbody2D rb2D;
-    private float horizontal;
-    private float vertical;
-    Vector2 movementInput;
+    public float speed = 5f;
+
+    private Rigidbody2D rb2D;
+    private Vector2 movementInput;
     private Animator animator;
 
     void Start(){
+        rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
@@ -19,27 +19,16 @@ public class Jugador1 : MonoBehaviour
     {
         movementInput.x = Input.GetAxisRaw("Horizontal");
         movementInput.y = Input.GetAxisRaw("Vertical");
+        movementInput = movementInput.normalized;
 
-        animator.SetFloat("Horizontal", Mathf.Abs(movementInput.x));
-        animator.SetFloat("Vertical", Mathf.Abs(movementInput.y));
+        animator.SetFloat("Horizontal", movementInput.x);
+        animator.SetFloat("Vertical", movementInput.y);
+        animator.SetFloat("Speed", movementInput.magnitude);
 
-        rb2D.linearVelocity = new Vector2(horizontal, vertical) * speed;
-
-        CheckFlip();
+        
     }
 
-        private void CheckFlip()
-    {
-        if (movementInput.x > 0 && transform.localScale.x < 0 || movementInput.x < 0 && transform.localScale.x > 0)
-        {
-            transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
-        }
-        // if (movementInput.x > 0 && transform.localScale.x < 0 || movementInput.x < 0 && transform.localScale.x > 0)
-        // {
-        //  transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.Y);
-        // }
-    }
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         rb2D.linearVelocity = movementInput * speed;
     }
