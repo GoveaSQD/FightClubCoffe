@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Loby.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Menu.unity
+    guid: f613952a4f3ea63468645e2af9467d9f
   - enabled: 1
     path: Assets/Scenes/pantallaInicio.unity
     guid: 4c407204c1c8acd4893bb1f7f1442830
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: f613952a4f3ea63468645e2af9467d9f
+    path: Assets/Scenes/Loby.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/Characteres.unity
     guid: ae169061c9942fe4dbf8785362aa91b7
