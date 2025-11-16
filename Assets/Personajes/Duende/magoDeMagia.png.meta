@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6792de9b7515324479369dbf3dcadad4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4090841848207291889
+    second: magoDeMagia_0
+  - first:
+      213: -7848831008565320126
+    second: magoDeMagia_1
+  - first:
+      213: -5591660423804058585
+    second: magoDeMagia_2
+  - first:
+      213: -2856788563298629549
+    second: magoDeMagia_3
+  - first:
+      213: -8317746661000028116
+    second: magoDeMagia_4
+  - first:
+      213: -1782584862303998634
+    second: magoDeMagia_5
+  - first:
+      213: 881635885957909235
+    second: magoDeMagia_6
+  - first:
+      213: 6795578563039158615
+    second: magoDeMagia_7
+  - first:
+      213: -6698704193955003923
+    second: magoDeMagia_8
+  - first:
+      213: -3877619960095376514
+    second: magoDeMagia_9
+  - first:
+      213: -8573763101828788329
+    second: magoDeMagia_10
+  - first:
+      213: 2692711618969861950
+    second: magoDeMagia_11
+  - first:
+      213: 524981609888879531
+    second: magoDeMagia_12
+  - first:
+      213: -4766110787479888727
+    second: magoDeMagia_13
+  - first:
+      213: -3493408295137627482
+    second: magoDeMagia_14
+  - first:
+      213: 4969654823557654578
+    second: magoDeMagia_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magoDeMagia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 266
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5b2ba9cf695c830800000000000000
+      internalID: 4090841848207291889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1112
+        width: 262
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246a46858c9531390800000000000000
+      internalID: -7848831008565320126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1105
+        width: 240
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7248c8e687e6662b0800000000000000
+      internalID: -5591660423804058585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1104
+        width: 239
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358cf2600f5aa58d0800000000000000
+      internalID: -2856788563298629549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 735
+        width: 276
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20e66b2b7d619c80800000000000000
+      internalID: -8317746661000028116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 735
+        width: 276
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65da164238cf247e0800000000000000
+      internalID: -1782584862303998634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 733
+        width: 256
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa02cbca233c3c00800000000000000
+      internalID: 881635885957909235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 729
+        width: 222
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7516535d2bebe4e50800000000000000
+      internalID: 6795578563039158615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 277
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de184efd60c6903a0800000000000000
+      internalID: -6698704193955003923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 355
+        width: 283
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bfc88d03def2ac0800000000000000
+      internalID: -3877619960095376514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_10
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 357
+        width: 264
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fc42772efd30980800000000000000
+      internalID: -8573763101828788329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_11
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 355
+        width: 230
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ff34b63fe6e5520800000000000000
+      internalID: 2692711618969861950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 249
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba31a032efb194700800000000000000
+      internalID: 524981609888879531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 8
+        width: 238
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac9a10ad7f5bddb0800000000000000
+      internalID: -4766110787479888727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_14
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 8
+        width: 255
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a23be81aabe48fc0800000000000000
+      internalID: -3493408295137627482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magoDeMagia_15
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 8
+        width: 259
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238e57e4bb2c7f440800000000000000
+      internalID: 4969654823557654578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      magoDeMagia_0: 4090841848207291889
+      magoDeMagia_1: -7848831008565320126
+      magoDeMagia_10: -8573763101828788329
+      magoDeMagia_11: 2692711618969861950
+      magoDeMagia_12: 524981609888879531
+      magoDeMagia_13: -4766110787479888727
+      magoDeMagia_14: -3493408295137627482
+      magoDeMagia_15: 4969654823557654578
+      magoDeMagia_2: -5591660423804058585
+      magoDeMagia_3: -2856788563298629549
+      magoDeMagia_4: -8317746661000028116
+      magoDeMagia_5: -1782584862303998634
+      magoDeMagia_6: 881635885957909235
+      magoDeMagia_7: 6795578563039158615
+      magoDeMagia_8: -6698704193955003923
+      magoDeMagia_9: -3877619960095376514
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
