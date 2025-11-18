@@ -9,9 +9,18 @@ public class MenuSeleccionPersonaje : MonoBehaviour
    private int index;
 
    [SerializeField] private Image imagen;
-   [SerializeField] private Image nombre;
+    [SerializeField] private Animator animacionPersonaje;
+    [SerializeField] private Image nombre;
    private GameManager gameManager;
 
+private void Awake()
+    {
+        // 🔹 SI NO LO ASIGNASTE EN EL INSPECTOR, LO BUSCA AUTOMÁTICAMENTE
+        if (animacionPersonaje == null)
+        {
+            animacionPersonaje = GetComponentInChildren<Animator>();
+        }
+    }
    private IEnumerator Start(){
     gameManager = GameManager.Instance;
 
@@ -27,11 +36,14 @@ public class MenuSeleccionPersonaje : MonoBehaviour
 }
 
 
-   private void CambiarPantalla(){
+  private void CambiarPantalla()
+{
     PlayerPrefs.SetInt("JugadorIndex", index);
+
+    animacionPersonaje.runtimeAnimatorController =gameManager.personajes[index].animacion;
     imagen.sprite = gameManager.personajes[index].imagen;
     nombre.sprite = gameManager.personajes[index].nombre;
-   }
+}
 
    public void SiguientePersonaje(){
     if(index == gameManager.personajes.Count -1){

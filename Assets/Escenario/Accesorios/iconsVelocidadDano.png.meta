@@ -1,0 +1,3731 @@
+fileFormatVersion: 2
+guid: 7f20b90c039854a40a2c02d9eb44f295
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2871023337113086756
+    second: iconsVelocidadDano_0
+  - first:
+      213: -5337202266231774719
+    second: iconsVelocidadDano_1
+  - first:
+      213: 1773500740805136729
+    second: iconsVelocidadDano_2
+  - first:
+      213: -6865204025853804360
+    second: iconsVelocidadDano_3
+  - first:
+      213: 5915977309824599390
+    second: iconsVelocidadDano_4
+  - first:
+      213: -3570018732070297214
+    second: iconsVelocidadDano_5
+  - first:
+      213: -5760845240976846911
+    second: iconsVelocidadDano_6
+  - first:
+      213: -587531110921060856
+    second: iconsVelocidadDano_7
+  - first:
+      213: -5267021967137900008
+    second: iconsVelocidadDano_8
+  - first:
+      213: -6368300071885732901
+    second: iconsVelocidadDano_9
+  - first:
+      213: 5560558695482231004
+    second: iconsVelocidadDano_10
+  - first:
+      213: 3323645049982319413
+    second: iconsVelocidadDano_11
+  - first:
+      213: -8292272951974378704
+    second: iconsVelocidadDano_12
+  - first:
+      213: 3848806762661558111
+    second: iconsVelocidadDano_13
+  - first:
+      213: -5247083908457803670
+    second: iconsVelocidadDano_14
+  - first:
+      213: 9131724739223296977
+    second: iconsVelocidadDano_15
+  - first:
+      213: 8367242767323484292
+    second: iconsVelocidadDano_16
+  - first:
+      213: -8487603407058515037
+    second: iconsVelocidadDano_17
+  - first:
+      213: -7696609045828869026
+    second: iconsVelocidadDano_18
+  - first:
+      213: 3547280836826943525
+    second: iconsVelocidadDano_19
+  - first:
+      213: -3810865994542197834
+    second: iconsVelocidadDano_20
+  - first:
+      213: 426386871726749336
+    second: iconsVelocidadDano_21
+  - first:
+      213: -5468002957513315091
+    second: iconsVelocidadDano_22
+  - first:
+      213: 6929940949773661866
+    second: iconsVelocidadDano_23
+  - first:
+      213: 9119962874728624192
+    second: iconsVelocidadDano_24
+  - first:
+      213: -1922062844324505513
+    second: iconsVelocidadDano_25
+  - first:
+      213: -6799601760656116044
+    second: iconsVelocidadDano_26
+  - first:
+      213: -5650886075915365493
+    second: iconsVelocidadDano_27
+  - first:
+      213: 5351843343467886750
+    second: iconsVelocidadDano_28
+  - first:
+      213: 8979077198685451061
+    second: iconsVelocidadDano_29
+  - first:
+      213: -1702428030803353589
+    second: iconsVelocidadDano_30
+  - first:
+      213: 4589907783267605702
+    second: iconsVelocidadDano_31
+  - first:
+      213: -105398095254896655
+    second: iconsVelocidadDano_32
+  - first:
+      213: 731407584259519590
+    second: iconsVelocidadDano_33
+  - first:
+      213: -6808418757998330195
+    second: iconsVelocidadDano_34
+  - first:
+      213: 5577970177973451984
+    second: iconsVelocidadDano_35
+  - first:
+      213: -5404273787705423483
+    second: iconsVelocidadDano_36
+  - first:
+      213: 8578616330393153580
+    second: iconsVelocidadDano_37
+  - first:
+      213: -312362051632494108
+    second: iconsVelocidadDano_38
+  - first:
+      213: 8058328127640753970
+    second: iconsVelocidadDano_39
+  - first:
+      213: 6633687614973577252
+    second: iconsVelocidadDano_40
+  - first:
+      213: 1386807900930342163
+    second: iconsVelocidadDano_41
+  - first:
+      213: 333246631069699832
+    second: iconsVelocidadDano_42
+  - first:
+      213: -2311832833386880043
+    second: iconsVelocidadDano_43
+  - first:
+      213: -709103898160126743
+    second: iconsVelocidadDano_44
+  - first:
+      213: 7928012083673602974
+    second: iconsVelocidadDano_45
+  - first:
+      213: 6241118316978592186
+    second: iconsVelocidadDano_46
+  - first:
+      213: 5506113288729566254
+    second: iconsVelocidadDano_47
+  - first:
+      213: 7940451136457685673
+    second: iconsVelocidadDano_48
+  - first:
+      213: -6332821356615037372
+    second: iconsVelocidadDano_49
+  - first:
+      213: -525122388105228430
+    second: iconsVelocidadDano_50
+  - first:
+      213: -6225985603776264377
+    second: iconsVelocidadDano_51
+  - first:
+      213: 8750807971807078726
+    second: iconsVelocidadDano_52
+  - first:
+      213: -2754926353120593993
+    second: iconsVelocidadDano_53
+  - first:
+      213: 698519524571375538
+    second: iconsVelocidadDano_54
+  - first:
+      213: -2428061707269622938
+    second: iconsVelocidadDano_55
+  - first:
+      213: 6116032040877735229
+    second: iconsVelocidadDano_56
+  - first:
+      213: 4547465374783356176
+    second: iconsVelocidadDano_57
+  - first:
+      213: 2882274884968125544
+    second: iconsVelocidadDano_58
+  - first:
+      213: 249482626972807454
+    second: iconsVelocidadDano_59
+  - first:
+      213: 5757228397680049946
+    second: iconsVelocidadDano_60
+  - first:
+      213: -545350731476984902
+    second: iconsVelocidadDano_61
+  - first:
+      213: 7250360348217133447
+    second: iconsVelocidadDano_62
+  - first:
+      213: 8960401960705639410
+    second: iconsVelocidadDano_63
+  - first:
+      213: 2435090108401187819
+    second: iconsVelocidadDano_64
+  - first:
+      213: 7658656033296173181
+    second: iconsVelocidadDano_65
+  - first:
+      213: -3018843498276157088
+    second: iconsVelocidadDano_66
+  - first:
+      213: 6042773049884676790
+    second: iconsVelocidadDano_67
+  - first:
+      213: -3064197284175379218
+    second: iconsVelocidadDano_68
+  - first:
+      213: 1606523477614923488
+    second: iconsVelocidadDano_69
+  - first:
+      213: 3553869415551189939
+    second: iconsVelocidadDano_70
+  - first:
+      213: -384814087096686857
+    second: iconsVelocidadDano_71
+  - first:
+      213: -1440996797700168802
+    second: iconsVelocidadDano_72
+  - first:
+      213: 3375456453648712117
+    second: iconsVelocidadDano_73
+  - first:
+      213: -2788071917148987109
+    second: iconsVelocidadDano_74
+  - first:
+      213: 4778008657005503373
+    second: iconsVelocidadDano_75
+  - first:
+      213: -1617348322231732849
+    second: iconsVelocidadDano_76
+  - first:
+      213: -1559555825254395740
+    second: iconsVelocidadDano_77
+  - first:
+      213: 7351513576441852854
+    second: iconsVelocidadDano_78
+  - first:
+      213: -5356830749537374766
+    second: iconsVelocidadDano_79
+  - first:
+      213: -4302770727254656392
+    second: iconsVelocidadDano_80
+  - first:
+      213: -5223948849174270428
+    second: iconsVelocidadDano_81
+  - first:
+      213: 3871751464433474357
+    second: iconsVelocidadDano_82
+  - first:
+      213: -8883289901306926177
+    second: iconsVelocidadDano_83
+  - first:
+      213: 5414919883733094557
+    second: iconsVelocidadDano_84
+  - first:
+      213: 1250732060315634644
+    second: iconsVelocidadDano_85
+  - first:
+      213: -8950301663152384944
+    second: iconsVelocidadDano_86
+  - first:
+      213: 1027950423593366836
+    second: iconsVelocidadDano_87
+  - first:
+      213: 5024480207698420642
+    second: iconsVelocidadDano_88
+  - first:
+      213: 6308055776805821983
+    second: iconsVelocidadDano_89
+  - first:
+      213: 1992028354195390683
+    second: iconsVelocidadDano_90
+  - first:
+      213: 2864201230876001798
+    second: iconsVelocidadDano_91
+  - first:
+      213: 4096636320947938099
+    second: iconsVelocidadDano_92
+  - first:
+      213: 729945493133614059
+    second: iconsVelocidadDano_93
+  - first:
+      213: 286046359398850334
+    second: iconsVelocidadDano_94
+  - first:
+      213: -2823138594936210314
+    second: iconsVelocidadDano_95
+  - first:
+      213: -2113876911529075512
+    second: iconsVelocidadDano_96
+  - first:
+      213: -1637101671914372193
+    second: iconsVelocidadDano_97
+  - first:
+      213: 8986222187004399392
+    second: iconsVelocidadDano_98
+  - first:
+      213: 1599020766363025434
+    second: iconsVelocidadDano_99
+  - first:
+      213: 752827792956282415
+    second: iconsVelocidadDano_100
+  - first:
+      213: 8941681428093466215
+    second: iconsVelocidadDano_101
+  - first:
+      213: -3276787799689500806
+    second: iconsVelocidadDano_102
+  - first:
+      213: 7430404896001905988
+    second: iconsVelocidadDano_103
+  - first:
+      213: 51535631534284233
+    second: iconsVelocidadDano_104
+  - first:
+      213: -7479625187249852247
+    second: iconsVelocidadDano_105
+  - first:
+      213: 8247180470165809528
+    second: iconsVelocidadDano_106
+  - first:
+      213: 8376096047808568534
+    second: iconsVelocidadDano_107
+  - first:
+      213: 169178129042124797
+    second: iconsVelocidadDano_108
+  - first:
+      213: 8037460126198607184
+    second: iconsVelocidadDano_109
+  - first:
+      213: -882390283557975733
+    second: iconsVelocidadDano_110
+  - first:
+      213: 2532371202121510504
+    second: iconsVelocidadDano_111
+  - first:
+      213: 1492349922298578907
+    second: iconsVelocidadDano_112
+  - first:
+      213: 3347449698899553680
+    second: iconsVelocidadDano_113
+  - first:
+      213: 3719007912667048742
+    second: iconsVelocidadDano_114
+  - first:
+      213: 7072349281872243278
+    second: iconsVelocidadDano_115
+  - first:
+      213: -3311575265702061227
+    second: iconsVelocidadDano_116
+  - first:
+      213: -408062374287448191
+    second: iconsVelocidadDano_117
+  - first:
+      213: 637827113441235813
+    second: iconsVelocidadDano_118
+  - first:
+      213: 8669699471973096641
+    second: iconsVelocidadDano_119
+  - first:
+      213: 1877478792649220794
+    second: iconsVelocidadDano_120
+  - first:
+      213: -2471138524597081204
+    second: iconsVelocidadDano_121
+  - first:
+      213: 9145054749070043075
+    second: iconsVelocidadDano_122
+  - first:
+      213: 5052055630123445353
+    second: iconsVelocidadDano_123
+  - first:
+      213: -3415257271075803837
+    second: iconsVelocidadDano_124
+  - first:
+      213: 9186859545474763341
+    second: iconsVelocidadDano_125
+  - first:
+      213: -3383328202379075407
+    second: iconsVelocidadDano_126
+  - first:
+      213: 1492535740046061727
+    second: iconsVelocidadDano_127
+  - first:
+      213: 1553293302692559220
+    second: iconsVelocidadDano_128
+  - first:
+      213: -6236364438506762515
+    second: iconsVelocidadDano_129
+  - first:
+      213: -7401890088869408078
+    second: iconsVelocidadDano_130
+  - first:
+      213: -5332491108541595015
+    second: iconsVelocidadDano_131
+  - first:
+      213: -8237831090869177547
+    second: iconsVelocidadDano_132
+  - first:
+      213: 5834334610999192153
+    second: iconsVelocidadDano_133
+  - first:
+      213: 3455494964230559158
+    second: iconsVelocidadDano_134
+  - first:
+      213: -4747879278590860994
+    second: iconsVelocidadDano_135
+  - first:
+      213: -9108162817873236500
+    second: iconsVelocidadDano_136
+  - first:
+      213: 4677990941962089622
+    second: iconsVelocidadDano_137
+  - first:
+      213: -1948130042242642003
+    second: iconsVelocidadDano_138
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iconsVelocidadDano_0
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 211
+        width: 622
+        height: 626
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 1}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b6b76838ce7d720800000000000000
+      internalID: 2871023337113086756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 210
+        width: 618
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10268da01d27ee5b0800000000000000
+      internalID: -5337202266231774719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_2
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 738
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9511590078dbc9810800000000000000
+      internalID: 1773500740805136729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_3
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 720
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b00768df45e9b0a0800000000000000
+      internalID: -6865204025853804360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 678
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55cd53e406c91250800000000000000
+      internalID: 5915977309824599390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_5
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 655
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281a571c0eeb47ec0800000000000000
+      internalID: -3570018732070297214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 644
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf439d86cd5d00b0800000000000000
+      internalID: -5760845240976846911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_7
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 638
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e3f07419ba8d7f0800000000000000
+      internalID: -587531110921060856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_8
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 634
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81af0904d67c7e6b0800000000000000
+      internalID: -5267021967137900008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_9
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 631
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3082843d04f97a0800000000000000
+      internalID: -6368300071885732901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_10
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 636
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd88de42ca21b2d40800000000000000
+      internalID: 5560558695482231004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_11
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 596
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b7ea34095ff1e20800000000000000
+      internalID: 3323645049982319413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_12
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 591
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033ccfc3fadebec80800000000000000
+      internalID: -8292272951974378704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_13
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 584
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f573099db55b96530800000000000000
+      internalID: 3848806762661558111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 568
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6054b94cfc9e27b0800000000000000
+      internalID: -5247083908457803670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_15
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 563
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db1d04b4476abe70800000000000000
+      internalID: 9131724739223296977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_16
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 561
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480d5cf17fa6e1470800000000000000
+      internalID: 8367242767323484292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_17
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 560
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abc1e7aba9f53a80800000000000000
+      internalID: -8487603407058515037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_18
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 553
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54ef48e9d6203590800000000000000
+      internalID: -7696609045828869026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_19
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 559
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520de9570297a3130800000000000000
+      internalID: 3547280836826943525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_20
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 550
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b352bc91951d1bc0800000000000000
+      internalID: -3810865994542197834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_21
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 549
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896b92ac994dae500800000000000000
+      internalID: 426386871726749336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_22
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 551
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec22a6e740cd14b0800000000000000
+      internalID: -5468002957513315091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_23
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 542
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa631b1d3981c2060800000000000000
+      internalID: 6929940949773661866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_24
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 541
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04033f83aed909e70800000000000000
+      internalID: 9119962874728624192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_25
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 533
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7589f00d6067355e0800000000000000
+      internalID: -1922062844324505513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_26
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 528
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6b8f97936f2a1a0800000000000000
+      internalID: -6799601760656116044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_27
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 533
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b831ddabd050491b0800000000000000
+      internalID: -5650886075915365493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_28
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 521
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9831f46a21954a40800000000000000
+      internalID: 5351843343467886750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_29
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 512
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533b47693271c9c70800000000000000
+      internalID: 8979077198685451061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_30
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 515
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b006c40d9b2cf58e0800000000000000
+      internalID: -1702428030803353589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_31
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 508
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc577d7fc0a2bf30800000000000000
+      internalID: 4589907783267605702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_32
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 509
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff3454adfc898ef0800000000000000
+      internalID: -105398095254896655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_33
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 508
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664b0dd925b762a00800000000000000
+      internalID: 731407584259519590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_34
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 505
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae376f4633a381a0800000000000000
+      internalID: -6808418757998330195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_35
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 494
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc74d1d25ee86d40800000000000000
+      internalID: 5577970177973451984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_36
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 497
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5890dd68f992005b0800000000000000
+      internalID: -5404273787705423483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_37
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 498
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20f27dd91e5d0770800000000000000
+      internalID: 8578616330393153580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_38
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 499
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e902277e544aabf0800000000000000
+      internalID: -312362051632494108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_39
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 502
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237d09bbcbee4df60800000000000000
+      internalID: 8058328127640753970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_40
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 482
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42888613db79f0c50800000000000000
+      internalID: 6633687614973577252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_41
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 487
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d78a2307eee3310800000000000000
+      internalID: 1386807900930342163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_42
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 489
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe418b9b0eef9400800000000000000
+      internalID: 333246631069699832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_43
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 486
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3e3e16948baefd0800000000000000
+      internalID: -2311832833386880043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_44
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 471
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e42259f2c1c826f0800000000000000
+      internalID: -709103898160126743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_45
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 475
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b9e565cf4f50e60800000000000000
+      internalID: 7928012083673602974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_46
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 476
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab951bcda08ec9650800000000000000
+      internalID: 6241118316978592186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_47
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 467
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c98cb0dd4a96c40800000000000000
+      internalID: 5506113288729566254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_48
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 454
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa38e00d36223e60800000000000000
+      internalID: 7940451136457685673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_49
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 459
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e04f4678c4d18a0800000000000000
+      internalID: -6332821356615037372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_50
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 455
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f026168f366b8f0800000000000000
+      internalID: -525122388105228430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_51
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 455
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747483e741bd899a0800000000000000
+      internalID: -6225985603776264377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_52
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 441
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649a7319c7d117970800000000000000
+      internalID: 8750807971807078726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_53
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 440
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b772ebf31984c9d0800000000000000
+      internalID: -2754926353120593993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_54
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 445
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b760c28ec3a1b900800000000000000
+      internalID: 698519524571375538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_55
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 415
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663377dddbacd4ed0800000000000000
+      internalID: -2428061707269622938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_56
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 418
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dbc6facb280e450800000000000000
+      internalID: 6116032040877735229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_57
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 410
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01db9543aa7db1f30800000000000000
+      internalID: 4547465374783356176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_58
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 404
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8641e87acb5eff720800000000000000
+      internalID: 2882274884968125544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_59
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 403
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11785e9027567300800000000000000
+      internalID: 249482626972807454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_60
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 397
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fb28e79b8c5ef40800000000000000
+      internalID: 5757228397680049946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_61
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 389
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb905c26668e68f0800000000000000
+      internalID: -545350731476984902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_62
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 387
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7894f0992547e9460800000000000000
+      internalID: 7250360348217133447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_63
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 363
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3c298eb1eb95c70800000000000000
+      internalID: 8960401960705639410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_64
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 369
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebf15b4d8d2bc120800000000000000
+      internalID: 2435090108401187819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_65
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 359
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d784581c513094a60800000000000000
+      internalID: 7658656033296173181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_66
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 360
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06980c435d9ea16d0800000000000000
+      internalID: -3018843498276157088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_67
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 360
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b21ea8a21e3cd350800000000000000
+      internalID: 6042773049884676790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_68
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 357
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4820b0ec8c975d0800000000000000
+      internalID: -3064197284175379218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_69
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 349
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee009657948b4610800000000000000
+      internalID: 1606523477614923488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_70
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 345
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3cd0c7761e15130800000000000000
+      internalID: 3553869415551189939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_71
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 351
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6290a60add8aaf0800000000000000
+      internalID: -384814087096686857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_72
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 340
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e932b961c0d800ce0800000000000000
+      internalID: -1440996797700168802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_73
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 342
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1088ab2c708de20800000000000000
+      internalID: 3375456453648712117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_74
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 342
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11a71afc57ce49d0800000000000000
+      internalID: -2788071917148987109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_75
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 338
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83ed8efe85ee4240800000000000000
+      internalID: 4778008657005503373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_76
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 330
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85bd4f15460e89e0800000000000000
+      internalID: -1617348322231732849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_77
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 324
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a012546d385b5ae0800000000000000
+      internalID: -1559555825254395740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_78
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 324
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b33745d5a2d50660800000000000000
+      internalID: 7351513576441852854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_79
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 332
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd6fe3a0d6b8a5b0800000000000000
+      internalID: -5356830749537374766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_80
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 330
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a790412dc7944c0800000000000000
+      internalID: -4302770727254656392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_81
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 322
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e2828033ec087b0800000000000000
+      internalID: -5223948849174270428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_82
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 315
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bd72881793bb530800000000000000
+      internalID: 3871751464433474357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_83
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b29c386e638b480800000000000000
+      internalID: -8883289901306926177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_84
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 312
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d905c1dd1f8a52b40800000000000000
+      internalID: 5414919883733094557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_85
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 311
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db4e44ae2e7b5110800000000000000
+      internalID: 1250732060315634644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_86
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 303
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054d63fde042ac380800000000000000
+      internalID: -8950301663152384944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_87
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 308
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435bef4c673044e00800000000000000
+      internalID: 1027950423593366836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_88
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 311
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a368d8c02a8ab540800000000000000
+      internalID: 5024480207698420642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_89
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 306
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e9cd7be47ba8750800000000000000
+      internalID: 6308055776805821983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_90
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 297
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd08252eb3b15ab10800000000000000
+      internalID: 1992028354195390683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_91
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 302
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606c99328dfafb720800000000000000
+      internalID: 2864201230876001798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_92
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 301
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333a01c670d2ad830800000000000000
+      internalID: 4096636320947938099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_93
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 299
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb50affe89412a00800000000000000
+      internalID: 729945493133614059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_94
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 295
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f1349f5ad38f300800000000000000
+      internalID: 286046359398850334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_95
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cb121d76232d8d0800000000000000
+      internalID: -2823138594936210314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_96
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 294
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccd86516200aa2e0800000000000000
+      internalID: -2113876911529075512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_97
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 294
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93885004b8d749e0800000000000000
+      internalID: -1637101671914372193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_98
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 289
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f8121d77975bc70800000000000000
+      internalID: 8986222187004399392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_99
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 279
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a108a8f3aecd03610800000000000000
+      internalID: 1599020766363025434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_100
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 280
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26533893e4927a00800000000000000
+      internalID: 752827792956282415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_101
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766f73042eb371c70800000000000000
+      internalID: 8941681428093466215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_102
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 273
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a776c2b7bd28682d0800000000000000
+      internalID: -3276787799689500806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_103
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 272
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445548b82e91e1760800000000000000
+      internalID: 7430404896001905988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_104
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 274
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd50e2426717b000800000000000000
+      internalID: 51535631534284233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_105
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 276
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a078ec5588033890800000000000000
+      internalID: -7479625187249852247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_106
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 258
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879a5c231fed37270800000000000000
+      internalID: 8247180470165809528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_107
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 251
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcde2e1afedd3470800000000000000
+      internalID: 8376096047808568534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_108
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 260
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff225dac9a095200800000000000000
+      internalID: 169178129042124797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_109
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 252
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d2f66866bca8f60800000000000000
+      internalID: 8037460126198607184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_110
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49454356be11c3f0800000000000000
+      internalID: -882390283557975733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_111
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 255
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ea1e5f03ac42320800000000000000
+      internalID: 2532371202121510504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_112
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 259
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd74037f854e5b410800000000000000
+      internalID: 1492349922298578907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_113
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 244
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d656ef3c7847e20800000000000000
+      internalID: 3347449698899553680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_114
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 245
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62be26f0ef19c9330800000000000000
+      internalID: 3719007912667048742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_115
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4aeb717338062260800000000000000
+      internalID: 7072349281872243278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_116
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 235
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bdbd067dbea02d0800000000000000
+      internalID: -3311575265702061227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_117
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 239
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187e46ebe65465af0800000000000000
+      internalID: -408062374287448191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_118
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 238
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56317cc51640ad800800000000000000
+      internalID: 637827113441235813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_119
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 241
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc19585cb5f05870800000000000000
+      internalID: 8669699471973096641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_120
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 242
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2af2db3052e0a10800000000000000
+      internalID: 1877478792649220794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_121
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 233
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bab92ca90c4bdd0800000000000000
+      internalID: -2471138524597081204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_122
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 217
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7a1d977d2c9ee70800000000000000
+      internalID: 9145054749070043075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_123
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 215
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c250324d18c1640800000000000000
+      internalID: 5052055630123445353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_124
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34de4f45b919a90d0800000000000000
+      internalID: -3415257271075803837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 199
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a0e6125184e7f70800000000000000
+      internalID: 9186859545474763341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_126
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b062a2fce00c01d0800000000000000
+      internalID: -3383328202379075407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_127
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f903508095d86b410800000000000000
+      internalID: 1492535740046061727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_128
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 201
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479bbf277086e8510800000000000000
+      internalID: 1553293302692559220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_129
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 186
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee0de8b59bf379a0800000000000000
+      internalID: -6236364438506762515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_130
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 183
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2547a5e24374990800000000000000
+      internalID: -7401890088869408078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_131
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 183
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972037be69f2ff5b0800000000000000
+      internalID: -5332491108541595015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_132
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 179
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533f21dc4485dad80800000000000000
+      internalID: -8237831090869177547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_133
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 172
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95aaf55ca68b7f050800000000000000
+      internalID: 5834334610999192153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_134
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b51d1aac5264ff20800000000000000
+      internalID: 3455494964230559158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_135
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 53
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31672393f42c1eb0800000000000000
+      internalID: -4747879278590860994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_136
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedae3c9c2e499180800000000000000
+      internalID: -9108162817873236500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_137
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69435260aff8be040800000000000000
+      internalID: 4677990941962089622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconsVelocidadDano_138
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 4
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf4cd75c0ad6f4e0800000000000000
+      internalID: -1948130042242642003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5d83fdaab1019b94f908cefe3ec7910e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      iconsVelocidadDano_0: 2871023337113086756
+      iconsVelocidadDano_1: -5337202266231774719
+      iconsVelocidadDano_10: 5560558695482231004
+      iconsVelocidadDano_100: 752827792956282415
+      iconsVelocidadDano_101: 8941681428093466215
+      iconsVelocidadDano_102: -3276787799689500806
+      iconsVelocidadDano_103: 7430404896001905988
+      iconsVelocidadDano_104: 51535631534284233
+      iconsVelocidadDano_105: -7479625187249852247
+      iconsVelocidadDano_106: 8247180470165809528
+      iconsVelocidadDano_107: 8376096047808568534
+      iconsVelocidadDano_108: 169178129042124797
+      iconsVelocidadDano_109: 8037460126198607184
+      iconsVelocidadDano_11: 3323645049982319413
+      iconsVelocidadDano_110: -882390283557975733
+      iconsVelocidadDano_111: 2532371202121510504
+      iconsVelocidadDano_112: 1492349922298578907
+      iconsVelocidadDano_113: 3347449698899553680
+      iconsVelocidadDano_114: 3719007912667048742
+      iconsVelocidadDano_115: 7072349281872243278
+      iconsVelocidadDano_116: -3311575265702061227
+      iconsVelocidadDano_117: -408062374287448191
+      iconsVelocidadDano_118: 637827113441235813
+      iconsVelocidadDano_119: 8669699471973096641
+      iconsVelocidadDano_12: -8292272951974378704
+      iconsVelocidadDano_120: 1877478792649220794
+      iconsVelocidadDano_121: -2471138524597081204
+      iconsVelocidadDano_122: 9145054749070043075
+      iconsVelocidadDano_123: 5052055630123445353
+      iconsVelocidadDano_124: -3415257271075803837
+      iconsVelocidadDano_125: 9186859545474763341
+      iconsVelocidadDano_126: -3383328202379075407
+      iconsVelocidadDano_127: 1492535740046061727
+      iconsVelocidadDano_128: 1553293302692559220
+      iconsVelocidadDano_129: -6236364438506762515
+      iconsVelocidadDano_13: 3848806762661558111
+      iconsVelocidadDano_130: -7401890088869408078
+      iconsVelocidadDano_131: -5332491108541595015
+      iconsVelocidadDano_132: -8237831090869177547
+      iconsVelocidadDano_133: 5834334610999192153
+      iconsVelocidadDano_134: 3455494964230559158
+      iconsVelocidadDano_135: -4747879278590860994
+      iconsVelocidadDano_136: -9108162817873236500
+      iconsVelocidadDano_137: 4677990941962089622
+      iconsVelocidadDano_138: -1948130042242642003
+      iconsVelocidadDano_14: -5247083908457803670
+      iconsVelocidadDano_15: 9131724739223296977
+      iconsVelocidadDano_16: 8367242767323484292
+      iconsVelocidadDano_17: -8487603407058515037
+      iconsVelocidadDano_18: -7696609045828869026
+      iconsVelocidadDano_19: 3547280836826943525
+      iconsVelocidadDano_2: 1773500740805136729
+      iconsVelocidadDano_20: -3810865994542197834
+      iconsVelocidadDano_21: 426386871726749336
+      iconsVelocidadDano_22: -5468002957513315091
+      iconsVelocidadDano_23: 6929940949773661866
+      iconsVelocidadDano_24: 9119962874728624192
+      iconsVelocidadDano_25: -1922062844324505513
+      iconsVelocidadDano_26: -6799601760656116044
+      iconsVelocidadDano_27: -5650886075915365493
+      iconsVelocidadDano_28: 5351843343467886750
+      iconsVelocidadDano_29: 8979077198685451061
+      iconsVelocidadDano_3: -6865204025853804360
+      iconsVelocidadDano_30: -1702428030803353589
+      iconsVelocidadDano_31: 4589907783267605702
+      iconsVelocidadDano_32: -105398095254896655
+      iconsVelocidadDano_33: 731407584259519590
+      iconsVelocidadDano_34: -6808418757998330195
+      iconsVelocidadDano_35: 5577970177973451984
+      iconsVelocidadDano_36: -5404273787705423483
+      iconsVelocidadDano_37: 8578616330393153580
+      iconsVelocidadDano_38: -312362051632494108
+      iconsVelocidadDano_39: 8058328127640753970
+      iconsVelocidadDano_4: 5915977309824599390
+      iconsVelocidadDano_40: 6633687614973577252
+      iconsVelocidadDano_41: 1386807900930342163
+      iconsVelocidadDano_42: 333246631069699832
+      iconsVelocidadDano_43: -2311832833386880043
+      iconsVelocidadDano_44: -709103898160126743
+      iconsVelocidadDano_45: 7928012083673602974
+      iconsVelocidadDano_46: 6241118316978592186
+      iconsVelocidadDano_47: 5506113288729566254
+      iconsVelocidadDano_48: 7940451136457685673
+      iconsVelocidadDano_49: -6332821356615037372
+      iconsVelocidadDano_5: -3570018732070297214
+      iconsVelocidadDano_50: -525122388105228430
+      iconsVelocidadDano_51: -6225985603776264377
+      iconsVelocidadDano_52: 8750807971807078726
+      iconsVelocidadDano_53: -2754926353120593993
+      iconsVelocidadDano_54: 698519524571375538
+      iconsVelocidadDano_55: -2428061707269622938
+      iconsVelocidadDano_56: 6116032040877735229
+      iconsVelocidadDano_57: 4547465374783356176
+      iconsVelocidadDano_58: 2882274884968125544
+      iconsVelocidadDano_59: 249482626972807454
+      iconsVelocidadDano_6: -5760845240976846911
+      iconsVelocidadDano_60: 5757228397680049946
+      iconsVelocidadDano_61: -545350731476984902
+      iconsVelocidadDano_62: 7250360348217133447
+      iconsVelocidadDano_63: 8960401960705639410
+      iconsVelocidadDano_64: 2435090108401187819
+      iconsVelocidadDano_65: 7658656033296173181
+      iconsVelocidadDano_66: -3018843498276157088
+      iconsVelocidadDano_67: 6042773049884676790
+      iconsVelocidadDano_68: -3064197284175379218
+      iconsVelocidadDano_69: 1606523477614923488
+      iconsVelocidadDano_7: -587531110921060856
+      iconsVelocidadDano_70: 3553869415551189939
+      iconsVelocidadDano_71: -384814087096686857
+      iconsVelocidadDano_72: -1440996797700168802
+      iconsVelocidadDano_73: 3375456453648712117
+      iconsVelocidadDano_74: -2788071917148987109
+      iconsVelocidadDano_75: 4778008657005503373
+      iconsVelocidadDano_76: -1617348322231732849
+      iconsVelocidadDano_77: -1559555825254395740
+      iconsVelocidadDano_78: 7351513576441852854
+      iconsVelocidadDano_79: -5356830749537374766
+      iconsVelocidadDano_8: -5267021967137900008
+      iconsVelocidadDano_80: -4302770727254656392
+      iconsVelocidadDano_81: -5223948849174270428
+      iconsVelocidadDano_82: 3871751464433474357
+      iconsVelocidadDano_83: -8883289901306926177
+      iconsVelocidadDano_84: 5414919883733094557
+      iconsVelocidadDano_85: 1250732060315634644
+      iconsVelocidadDano_86: -8950301663152384944
+      iconsVelocidadDano_87: 1027950423593366836
+      iconsVelocidadDano_88: 5024480207698420642
+      iconsVelocidadDano_89: 6308055776805821983
+      iconsVelocidadDano_9: -6368300071885732901
+      iconsVelocidadDano_90: 1992028354195390683
+      iconsVelocidadDano_91: 2864201230876001798
+      iconsVelocidadDano_92: 4096636320947938099
+      iconsVelocidadDano_93: 729945493133614059
+      iconsVelocidadDano_94: 286046359398850334
+      iconsVelocidadDano_95: -2823138594936210314
+      iconsVelocidadDano_96: -2113876911529075512
+      iconsVelocidadDano_97: -1637101671914372193
+      iconsVelocidadDano_98: 8986222187004399392
+      iconsVelocidadDano_99: 1599020766363025434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
