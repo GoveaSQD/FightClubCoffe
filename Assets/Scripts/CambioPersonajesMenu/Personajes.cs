@@ -7,7 +7,10 @@ public class Personajes : ScriptableObject
     
     public GameObject personajeJugable;
     public Sprite imagen;
+   public RuntimeAnimatorController animacion;
     public Sprite nombre;
+
+
    
    
 }

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Zorro
   m_EditorClassIdentifier: 
   personajeJugable: {fileID: 6545191628150993717, guid: 991339d85f6c3c149a27f59f64017c69, type: 3}
-  imagen: {fileID: -5794215529515081560, guid: e3062273f2592b147a9c2311146f3577, type: 3}
-  nombre: {fileID: 6214591725997392312, guid: ee6c96dffc9192d428aea77ad24fa4a0, type: 3}
+  imagen: {fileID: -3154802597475336242, guid: 89297375abebb6847834348828141628, type: 3}
+  animacion: {fileID: 9100000, guid: 72a0236efdb21e749a9be258cd1c7466, type: 2}
+  nombre: {fileID: -4958771607354869945, guid: 219a404ac85ad804791e7fee42dfb3ae, type: 3}

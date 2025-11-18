@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc7db6fdd88462c44b7f0e409e2eba46, type: 3}
-  m_Name: NuevoPersonaje
+  m_Name: Duende
   m_EditorClassIdentifier: 
   personajeJugable: {fileID: 0}
-  imagen: {fileID: -6340947731395795210, guid: f187dda9f8769bb48a49e378843ac0aa, type: 3}
-  animacion: {fileID: 9100000, guid: 439c5e02d8794b74ca3fbaea20699872, type: 2}
-  nombre: {fileID: 6160915784624274345, guid: 219a404ac85ad804791e7fee42dfb3ae, type: 3}
+  imagen: {fileID: 4090841848207291889, guid: 6792de9b7515324479369dbf3dcadad4, type: 3}
+  animacion: {fileID: 9100000, guid: 5cbe112fcc3f2cf4ea2076d9b0b7b2e9, type: 2}
+  nombre: {fileID: -7413523806618607039, guid: 219a404ac85ad804791e7fee42dfb3ae, type: 3}
