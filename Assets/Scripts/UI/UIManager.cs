@@ -4,7 +4,7 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     public GameObject inventory;
-    // public GameObject pauseMenu;//para despausar y pausar el juego
+    public GameObject pauseMenu;//para despausar y pausar el juego
     public TMP_Text cafeBlancoCountText;
     public TMP_Text capuchinoCountText;
     public TMP_Text cafeNegroCountText;
@@ -59,17 +59,17 @@ public class UIManager : MonoBehaviour
     // }
 
 
-    // public void PauseGame()
-    // {
-    //     pauseMenu.SetActive(true);
-    //     //PARA DETENER EL UEGO
-    //     Time.timeScale = 0;
-    // }
-//volver a jugar
-    // public void ResumeGame()
-    // {
-    //     pauseMenu.SetActive(false);
-    //     Time.timeScale = 1;
-    // }
+    public void PauseGame()
+    {
+        pauseMenu.SetActive(true);
+        //PARA DETENER EL UEGO
+        Time.timeScale = 0;
+    }
+// volver a jugar
+    public void ResumeGame()
+    {
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1;
+    }
 
 }
