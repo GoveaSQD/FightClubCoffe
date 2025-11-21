@@ -1,44 +1,92 @@
 using UnityEngine;
-
-public class JugadorCollector : MonoBehaviour
+public class JugadorResoursesCollector : MonoBehaviour
 {
-    
+    // Contadores internos de ítems
     private int cafeBlanco;
     private int capuchino;
     private int cafeNegro;
     private int b52;
 
-    void OnTriggerEnter2D(Collider2D collision){
-        if(collision.gameObject.CompareTag("CafeBlanco"))
+    void Start()
+    {
+        // Inicializa el UI del inventario con contadores a 0 al inicio del juego
+        UIManager.Instance.UpdateCafeBlanco(cafeBlanco);
+        UIManager.Instance.UpdateCapuchino(capuchino);
+        UIManager.Instance.UpdateCafeNegro(cafeNegro);
+        UIManager.Instance.UpdateB52(b52);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        bool collected = true; // Bandera para saber si se recogió algo
+
+        if (collision.gameObject.CompareTag("CafeBlanco"))
         {
-            Destroy(collision.gameObject);
             cafeBlanco++;
-            Debug.Log("Cafe blanco: " + cafeBlanco);
             UIManager.Instance.UpdateCafeBlanco(cafeBlanco);
         }
-
-        if(collision.gameObject.CompareTag("Capuchino"))
+        else if (collision.gameObject.CompareTag("Capuchino"))
         {
-            Destroy(collision.gameObject);
             capuchino++;
-            Debug.Log("Capuchino: " + capuchino);
             UIManager.Instance.UpdateCapuchino(capuchino);
         }
-
-        if(collision.gameObject.CompareTag("CafeNegro"))
+        else if (collision.gameObject.CompareTag("CafeNegro"))
         {
-            Destroy(collision.gameObject);
             cafeNegro++;
-            Debug.Log("Cafe Negro: " + cafeNegro);
             UIManager.Instance.UpdateCafeNegro(cafeNegro);
         }
+        else if (collision.gameObject.CompareTag("B52"))
+        {
+            b52++;
+            UIManager.Instance.UpdateB52(b52);
+        }
+        else
+        {
+            collected = false; // No es un ítem coleccionable
+        }
 
-        if(collision.gameObject.CompareTag("B52"))
+        if (collected)
         {
             Destroy(collision.gameObject);
-            b52++;
-            Debug.Log("b52: " + b52);
-            UIManager.Instance.UpdateB52(b52);
+        }
+    }
+
+    // --- Métodos Públicos para Consumo ---
+    
+    // Devuelve la cantidad actual de un ítem
+    public int GetItemCount(string itemTag)
+    {
+        switch (itemTag)
+        {
+            case "CafeBlanco": return cafeBlanco;
+            case "Capuchino": return capuchino;
+            case "CafeNegro": return cafeNegro;
+            case "B52": return b52;
+            default: return 0;
+        }
+    }
+
+    // Reduce la cantidad de un ítem y actualiza la UI del inventario
+    public void DecreaseItemCount(string itemTag)
+    {
+        switch (itemTag)
+        {
+            case "CafeBlanco":
+                cafeBlanco--;
+                UIManager.Instance.UpdateCafeBlanco(cafeBlanco);
+                break;
+            case "Capuchino":
+                capuchino--;
+                UIManager.Instance.UpdateCapuchino(capuchino);
+                break;
+            case "CafeNegro":
+                cafeNegro--;
+                UIManager.Instance.UpdateCafeNegro(cafeNegro);
+                break;
+            case "B52":
+                b52--;
+                UIManager.Instance.UpdateB52(b52);
+                break;
         }
     }
 }
