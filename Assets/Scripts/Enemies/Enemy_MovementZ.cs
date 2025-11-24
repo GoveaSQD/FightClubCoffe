@@ -43,7 +43,7 @@ public class Enemy_MovementZ : MonoBehaviour
 
     private void Flip()
     {
-        facingDirection *= 1;
+        facingDirection *= -1;
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
     }   
     private void OnTriggerEnter2D(Collider2D collision)
