@@ -11,4 +11,8 @@ public class Enemy_Combat : MonoBehaviour
         collision.gameObject.GetComponent<PlayerHealth>()?.ChamgeHealth(-1);
         }
     }
+    public void Attack()
+    {
+        Debug.Log("Enemy Attack");
+    }   
 }

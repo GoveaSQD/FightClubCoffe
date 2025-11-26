@@ -5,10 +5,12 @@ public class Enemy_MovementZ : MonoBehaviour
     public float speed = 5f;
     private int facingDirection = 1;
     public EnemyStatez enemyState, newState;
+
+    public float attackRange = 2;
     private Rigidbody2D rb;
     private Transform player;
     private Animator anim;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -16,29 +18,34 @@ public class Enemy_MovementZ : MonoBehaviour
         ChangeState(EnemyStatez.Idle);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (enemyState == EnemyStatez.Chasing)
         {
-            if(player.position.x < transform.position.x && facingDirection == 1 ||
-            player.position.x > transform.position.x && facingDirection == -1)
-            {
-                Flip();
-            }
+            Chase();
+        }
+        else if (enemyState == EnemyStatez.Attacking)
+        {
+            // Atacar
+            rb.linearVelocity = Vector2.zero;
+        }
+    }
+
+    void Chase()
+    {
+        if (Vector2.Distance(transform.position, player.transform.position) <= attackRange)
+        {
+            ChangeState(EnemyStatez.Attacking);
+            return; // Importante salir aquí
+        }
+        else if (player.position.x < transform.position.x && facingDirection == 1 ||
+                player.position.x > transform.position.x && facingDirection == -1)
+        {
+            Flip();
+        }
 
         Vector2 direction = (player.position - transform.position).normalized;
         rb.linearVelocity = direction * speed;
-        }
-            // if (direction.x < 0)
-            // {
-            //     transform.localScale = new Vector3(-1, 1, 1);
-            // }
-            // else
-            // {
-            //     transform.localScale = new Vector3(1, 1, 1);
-            // }
-        //si el personaje gira a la izquierda, voltear el sprite
     }
 
     private void Flip()
@@ -46,13 +53,14 @@ public class Enemy_MovementZ : MonoBehaviour
         facingDirection *= -1;
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
     }   
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-            if(player == null)
+            if (player == null)
             {
-            player = collision.transform;
+                player = collision.transform;
             }
             ChangeState(EnemyStatez.Chasing);
         }
@@ -60,35 +68,56 @@ public class Enemy_MovementZ : MonoBehaviour
         
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-        rb.linearVelocity = Vector2.zero;
-        ChangeState(EnemyStatez.Idle);
+            rb.linearVelocity = Vector2.zero;
+            ChangeState(EnemyStatez.Idle);
         }
     }
 
     void ChangeState(EnemyStatez newState)
     {
-        //Sale de la animacion del estado anterior
-        if(enemyState == EnemyStatez.Idle)
+        // Sale de la animación del estado anterior
+        if (enemyState == EnemyStatez.Idle)
             anim.SetBool("isIdle", false);
-        else if(enemyState == EnemyStatez.Chasing)
+        else if (enemyState == EnemyStatez.Chasing)
             anim.SetBool("isChasing", false);
+        else if (enemyState == EnemyStatez.Attacking)
+            anim.SetBool("isAttacking", false);
 
-        //Entra en la animacion del nuevo estado
+        // Entra en la animación del nuevo estado
         enemyState = newState;
         
-        //activa la animacion del nuevo estado
-        if(enemyState == EnemyStatez.Idle)
+        // Activa la animación del nuevo estado
+        if (enemyState == EnemyStatez.Idle)
             anim.SetBool("isIdle", true);
-        else if(enemyState == EnemyStatez.Chasing)
+        else if (enemyState == EnemyStatez.Chasing)
             anim.SetBool("isChasing", true);
+        else if (enemyState == EnemyStatez.Attacking)
+        {
+            anim.SetBool("isAttacking", true);
+            // VOLTEAR HACIA EL JUGADOR AL INICIAR EL ATAQUE
+            FacePlayerForAttack();
+        }
+    }
+
+    // NUEVO MÉTODO: Voltear hacia el jugador al comenzar el ataque
+    void FacePlayerForAttack()
+    {
+        if (player == null) return;
+
+        // Verificar si necesita voltearse para quedar cara a cara
+        if ((player.position.x < transform.position.x && facingDirection == -1) ||
+            (player.position.x > transform.position.x && facingDirection == 1))
+        {
+            Flip();
+        }
     }
 }
-
 
 public enum EnemyStatez
 {
     Idle,
     Chasing,
+    Attacking
 }
