@@ -9,7 +9,7 @@ public class Jugador1 : MonoBehaviour
     public float speedBoostAmount = 1.0f;  // Aumento de velocidad al consumir
     public int danoBoostAmount = 2;      // Aumento de daño al consumir
     public float buffDuration = 3f;      // Duración del efecto en segundos
-    public int maxVida = 5;
+    
 
     // --- REFERENCIAS Y ESTADO ---
     private JugadorResoursesCollector collector; // Referencia al script de recolección
@@ -19,7 +19,6 @@ public class Jugador1 : MonoBehaviour
     private Vector2 movementInput;
     private bool gameIsPaused = false;
     
-    private int vidaActual;
     private int currentDano;    // Daño total actual (base + buff)
     private float currentSpeed; // Velocidad total actual (base + buff)
 
@@ -32,14 +31,12 @@ public class Jugador1 : MonoBehaviour
         // **IMPORTANTE**: Asegúrate de que el script JugadorCollector esté en este mismo GameObject.
         collector = GetComponent<JugadorResoursesCollector>(); 
         
-        vidaActual = maxVida;
         
         // Inicialización de efectos al estado base
         currentSpeed = baseSpeed;
         currentDano = baseDano;
         
-        // Actualizar UI inicial (Asumiendo que ConsumoCafe.Instance ya está inicializado)
-        ConsumoCafe.Instance.UpdateVida(vidaActual);
+        // Actualizar UI inicial (Asumiendo que ConsumoCafe.Instance ya está inicializado)        
         ConsumoCafe.Instance.UpdateDano(currentDano);
         ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
     }

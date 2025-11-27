@@ -26,7 +26,9 @@ public class ConsumoCafe : MonoBehaviour
     
     public void UpdateVida(int value)
     {
-        vidaJugador.text = value.ToString();
+        // vidaJugador.text = value.ToString();
+        vidaJugador.text = value.ToString()+"/5 lp";
+        
     }
 
     public void UpdateDano(int value)
