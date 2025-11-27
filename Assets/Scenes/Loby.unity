@@ -1432,6 +1432,7 @@ GameObject:
   - component: {fileID: 469374675}
   - component: {fileID: 469374674}
   - component: {fileID: 469374673}
+  - component: {fileID: 469374677}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1524,6 +1525,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &469374677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469374672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13160509e922e541bccdff2285de1ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 1432804157}
+  pauseMenu: {fileID: 1529522749}
+  cafeBlancoCountText: {fileID: 1927231697}
+  capuchinoCountText: {fileID: 100093776}
+  cafeNegroCountText: {fileID: 1609652525}
+  b52: {fileID: 1606474271}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,7 +1675,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.644592, y: 7.623994, z: -9.835513}
+  m_LocalPosition: {x: -10.242624, y: 7.624064, z: -9.835513}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1703,6 +1722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540939270}
+  - component: {fileID: 540939271}
   m_Layer: 0
   m_Name: Cameras
   m_TagString: Untagged
@@ -1727,6 +1747,18 @@ Transform:
   - {fileID: 251673415}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &540939271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540939269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a6584b5c0afbc409d82b3d38ca13fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &560128040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3986,6 +4018,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25cbea6ff6d0af4599696f4425016b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cafeBlanco: 0
+  capuchino: 0
+  cafeNegro: 0
+  b52: 0
 --- !u!1 &1606474269
 GameObject:
   m_ObjectHideFlags: 0
@@ -4267,7 +4303,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1649098987}
-  - component: {fileID: 1649098988}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -4298,24 +4333,6 @@ RectTransform:
   m_AnchoredPosition: {x: -6, y: -10}
   m_SizeDelta: {x: 454.4583, y: 106}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1649098988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649098986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d13160509e922e541bccdff2285de1ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 1432804157}
-  pauseMenu: {fileID: 1529522749}
-  cafeBlancoCountText: {fileID: 1927231697}
-  capuchinoCountText: {fileID: 100093776}
-  cafeNegroCountText: {fileID: 1609652525}
-  b52: {fileID: 1606474271}
 --- !u!1 &1751350835
 GameObject:
   m_ObjectHideFlags: 0
