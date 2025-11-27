@@ -4,6 +4,11 @@ public class PlayerHealth : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth;
+    
+    public void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     public void ChangeHealth(int amount)
     {
@@ -13,4 +18,5 @@ public class PlayerHealth : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
 }

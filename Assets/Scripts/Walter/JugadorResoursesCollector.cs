@@ -1,11 +1,47 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class JugadorResoursesCollector : MonoBehaviour
 {
     // Contadores internos de ítems
-    private int cafeBlanco;
-    private int capuchino;
-    private int cafeNegro;
-    private int b52;
+    public static JugadorResoursesCollector Instance;
+    // Contadores internos de ítems
+    [SerializeField] private int cafeBlanco;
+    [SerializeField] private int capuchino;
+    [SerializeField] private int cafeNegro;
+    [SerializeField] private int b52;
+
+    public void Awake()
+    {
+        if (JugadorResoursesCollector.Instance == null)
+        {
+            JugadorResoursesCollector.Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Cuando entra a cualquier escena, actualiza la UI
+        UIManager.Instance.UpdateCafeBlanco(cafeBlanco);
+        UIManager.Instance.UpdateCapuchino(capuchino);
+        UIManager.Instance.UpdateCafeNegro(cafeNegro);
+        UIManager.Instance.UpdateB52(b52);
+    }
 
     void Start()
     {

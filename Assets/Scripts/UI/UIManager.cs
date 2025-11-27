@@ -16,9 +16,10 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
+        if(UIManager.Instance == null)
         {
-            Instance = this;
+            UIManager.Instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
         else
         {
