@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Jugador1 : MonoBehaviour
 {
@@ -22,6 +23,20 @@ public class Jugador1 : MonoBehaviour
     private int currentDano;    // Daño total actual (base + buff)
     private float currentSpeed; // Velocidad total actual (base + buff)
 
+void Awake()
+{
+    Jugador1[] players = Object.FindObjectsByType<Jugador1>(FindObjectsSortMode.None);
+
+
+    if (players.Length > 1)
+    {
+        Destroy(gameObject);
+        return;
+    }
+
+    DontDestroyOnLoad(gameObject);
+}
+
 
     void Start()
     {
@@ -40,6 +55,38 @@ public class Jugador1 : MonoBehaviour
         ConsumoCafe.Instance.UpdateDano(currentDano);
         ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
     }
+
+    
+
+void OnEnable()
+{
+    SceneManager.sceneLoaded += OnSceneLoaded;
+}
+
+void OnDisable()
+{
+    SceneManager.sceneLoaded -= OnSceneLoaded;
+}
+
+void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+{
+    GameObject spawn = GameObject.Find("PlayerSpawn");
+    if (spawn != null)
+    {
+        transform.position = spawn.transform.position;
+    }
+}
+
+
+    public void ResetStatsToBase()
+{
+    currentSpeed = baseSpeed;
+    currentDano = baseDano;
+
+    ConsumoCafe.Instance.UpdateDano(currentDano);
+    ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
+}
+
 
     void Update()
     {
