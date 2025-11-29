@@ -28,7 +28,7 @@ public class PlayerHealth : MonoBehaviour
         ConsumoCafe.Instance.UpdateVida(currentHealth);
     }
 
-    public void ChamgeHealth(int amount)
+    public void ChangeHealth(int amount)
     {
         if (currentHealth <= 0) return;
 
