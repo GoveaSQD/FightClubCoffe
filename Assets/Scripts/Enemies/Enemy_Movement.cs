@@ -4,11 +4,12 @@ public class Enemy_Movement : MonoBehaviour
 {
     public float speed = 5f;
     private int facingDirection = 1;
-    public EnemyState enemyState, newState;
+    public EnemyState enemyState;
+
     private Rigidbody2D rb;
     private Transform player;
     private Animator anim;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -16,79 +17,79 @@ public class Enemy_Movement : MonoBehaviour
         ChangeState(EnemyState.Idle);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (enemyState == EnemyState.Chasing)
+        if (enemyState == EnemyState.Chasing && player != null)
         {
-            if(player.position.x < transform.position.x && facingDirection == -1 ||
-            player.position.x > transform.position.x && facingDirection == 1)
+            // Volteo
+            if (player.position.x < transform.position.x && facingDirection == 1 ||
+                player.position.x > transform.position.x && facingDirection == -1)
             {
                 Flip();
             }
 
-        Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = direction * speed;
+            // Movimiento
+            Vector2 direction = (player.position - transform.position).normalized;
+            rb.linearVelocity = direction * speed;
         }
-            // if (direction.x < 0)
-            // {
-            //     transform.localScale = new Vector3(-1, 1, 1);
-            // }
-            // else
-            // {
-            //     transform.localScale = new Vector3(1, 1, 1);
-            // }
-        //si el personaje gira a la izquierda, voltear el sprite
+        else if (enemyState == EnemyState.Idle)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 
     private void Flip()
     {
         facingDirection *= -1;
-        transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
-    }   
-    private void OnTriggerEnter2D(Collider2D collision)
+        transform.localScale = new Vector3(
+            Mathf.Abs(transform.localScale.x) * facingDirection,
+            transform.localScale.y,
+            transform.localScale.z
+        );
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
-            if(player == null)
-            {
-            player = collision.transform;
-            }
+            if (player == null)
+                player = collision.transform;
+
             ChangeState(EnemyState.Chasing);
         }
     }
-        
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
-        rb.linearVelocity = Vector2.zero;
-        ChangeState(EnemyState.Idle);
+            rb.linearVelocity = Vector2.zero;
+            player = null;
+            ChangeState(EnemyState.Idle);
         }
     }
 
     void ChangeState(EnemyState newState)
     {
-        //Sale de la animacion del estado anterior
-        if(enemyState == EnemyState.Idle)
+        // Apagar estado anterior
+        if (enemyState == EnemyState.Idle)
             anim.SetBool("isIdle", false);
-        else if(enemyState == EnemyState.Chasing)
+        else if (enemyState == EnemyState.Chasing)
             anim.SetBool("isChasing", false);
 
-        //Entra en la animacion del nuevo estado
+        // Cambiar estado
         enemyState = newState;
-        
-        //activa la animacion del nuevo estado
-        if(enemyState == EnemyState.Idle)
+
+        // Encender nuevo estado
+        if (enemyState == EnemyState.Idle)
             anim.SetBool("isIdle", true);
-        else if(enemyState == EnemyState.Chasing)
+        else if (enemyState == EnemyState.Chasing)
             anim.SetBool("isChasing", true);
     }
 }
 
-
 public enum EnemyState
 {
     Idle,
-    Chasing,
+    Chasing
 }
