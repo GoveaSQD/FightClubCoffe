@@ -10,7 +10,8 @@ public class Jugador1 : MonoBehaviour
     public float speedBoostAmount = 1.0f;  // Aumento de velocidad al consumir
     public int danoBoostAmount = 2;      // Aumento de daño al consumir
     public float buffDuration = 3f;      // Duración del efecto en segundos
-    
+    public float stunTime = 1;        // Duración del aturdimiento por knockback
+    private bool isKnockedback;
 
     // --- REFERENCIAS Y ESTADO ---
     private JugadorResoursesCollector collector; // Referencia al script de recolección
@@ -23,6 +24,7 @@ public class Jugador1 : MonoBehaviour
     private int currentDano;    // Daño total actual (base + buff)
     private float currentSpeed; // Velocidad total actual (base + buff)
 
+    public Player_Combat player_Combat;
 void Awake()
 {
     Jugador1[] players = Object.FindObjectsByType<Jugador1>(FindObjectsSortMode.None);
@@ -90,12 +92,17 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
 
     void Update()
     {
+        if (Input.GetButtonDown("Slash"))
+        {
+            player_Combat.Attack();
+        }
         if (gameIsPaused) 
         {
             // Opcional: Detener la animación si está pausado
             animator.SetFloat("Speed", 0); 
         }
-
+        if (isKnockedback == false)
+        {
         movementInput.x = Input.GetAxisRaw("Horizontal");
         movementInput.y = Input.GetAxisRaw("Vertical");
         movementInput = movementInput.normalized;
@@ -104,7 +111,7 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         animator.SetFloat("Vertical", movementInput.y);
         // Usa la magnitud del input para la animación, incluso si la velocidad es 0 (pausa)
         animator.SetFloat("Speed", movementInput.magnitude); 
-    
+        }    
         OpenCloseInventory();
         OpenClosePauseMenu();
         CheckConsumoInput(); 
@@ -211,5 +218,20 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
 
         Debug.Log("Buff TERMINADO: Daño y Velocidad restaurados.");
+    }
+
+    public void Knockback(Transform enemy, float force, float stunTime)
+    {
+        isKnockedback = true;
+        Vector2 direction = (transform.position - enemy.position).normalized * force;
+        rb2D.linearVelocity = direction * force;
+        StartCoroutine(KnockbackCounter(stunTime));
+    }
+
+    IEnumerator KnockbackCounter(float stunTime)
+    {
+        yield return new WaitForSeconds(stunTime);
+        rb2D.linearVelocity = Vector2.zero;
+        isKnockedback = false;
     }
 }

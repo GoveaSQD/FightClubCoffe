@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 39172a9f059130642bc02fb34ace18ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8342714360931271058
+    second: Zorrito Izquierda_0
+  - first:
+      213: -8503826470500909675
+    second: Zorrito Izquierda_1
+  - first:
+      213: 5917145429146722443
+    second: Zorrito Izquierda_2
+  - first:
+      213: 8529309354053714486
+    second: Zorrito Izquierda_3
+  - first:
+      213: 5858588026190379309
+    second: Zorrito Izquierda_4
+  - first:
+      213: 7159637001924575418
+    second: Zorrito Izquierda_5
+  - first:
+      213: -2943284771259533
+    second: Zorrito Izquierda_6
+  - first:
+      213: 8483047203587571494
+    second: Zorrito Izquierda_7
+  - first:
+      213: 6509745502123816350
+    second: Zorrito Izquierda_8
+  - first:
+      213: 7376776765401690290
+    second: Zorrito Izquierda_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zorrito Izquierda_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 586
+        width: 244
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291cbd9728647c370800000000000000
+      internalID: 8342714360931271058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 594
+        width: 231
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dba3a51e65cf980800000000000000
+      internalID: -8503826470500909675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 584
+        width: 241
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80ed9cda6ced1250800000000000000
+      internalID: 5917145429146722443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_3
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 584
+        width: 248
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632c9c3daa13e5670800000000000000
+      internalID: 8529309354053714486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_4
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 584
+        width: 222
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d293f6a05c2ed4150800000000000000
+      internalID: 5858588026190379309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 328
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0057c7be32c5360800000000000000
+      internalID: 7159637001924575418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_6
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152
+        width: 357
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b7cbc191b85fff0800000000000000
+      internalID: -2943284771259533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_7
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 152
+        width: 309
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f35be8c76d9b570800000000000000
+      internalID: 8483047203587571494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_8
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 155
+        width: 277
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9579484b03475a50800000000000000
+      internalID: 6509745502123816350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zorrito Izquierda_9
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 155
+        width: 227
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b07f1162639f5660800000000000000
+      internalID: 7376776765401690290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Zorrito Izquierda_0: 8342714360931271058
+      Zorrito Izquierda_1: -8503826470500909675
+      Zorrito Izquierda_2: 5917145429146722443
+      Zorrito Izquierda_3: 8529309354053714486
+      Zorrito Izquierda_4: 5858588026190379309
+      Zorrito Izquierda_5: 7159637001924575418
+      Zorrito Izquierda_6: -2943284771259533
+      Zorrito Izquierda_7: 8483047203587571494
+      Zorrito Izquierda_8: 6509745502123816350
+      Zorrito Izquierda_9: 7376776765401690290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
