@@ -328,8 +328,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 20
   maxHealth: 20
-  gameOverPanel: {fileID: 0}
+  gameOverPanel: {fileID: 1869236124}
   initialPosition: {x: 0, y: 0, z: 0}
+  posisicionRespawn: {x: -15, y: -25, z: 0}
 --- !u!1 &81069644
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +433,10 @@ PrefabInstance:
     - target: {fileID: 1706883904142673542, guid: 844906f86fae03b4eadcd92b12192694, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706883904142673542, guid: 844906f86fae03b4eadcd92b12192694, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
       objectReference: {fileID: 0}
     - target: {fileID: 5445956187535101495, guid: 844906f86fae03b4eadcd92b12192694, type: 3}
       propertyPath: m_LocalScale.x
@@ -1685,7 +1690,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.796528, y: 7.624704, z: -9.835513}
+  m_LocalPosition: {x: -13.400268, y: 7.623984, z: -9.835513}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4602,6 +4607,18 @@ MonoBehaviour:
     m_Bits: 64
   damage: 1
   anim: {fileID: 1584695341}
+--- !u!114 &1584695353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584695326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5517642ecafcc7e42ad55412baddf180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1588200545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5315,7 +5332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1794854850}
   m_Layer: 0
-  m_Name: 
+  m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6171,6 +6188,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1589124109649536194, guid: 29e328c709b289449a56086aff80234e, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
+      objectReference: {fileID: 0}
     - target: {fileID: 3727372325300446880, guid: 29e328c709b289449a56086aff80234e, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -6518,6 +6539,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6545191628150993717, guid: 991339d85f6c3c149a27f59f64017c69, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1584695347}
+    - targetCorrespondingSourceObject: {fileID: 6545191628150993717, guid: 991339d85f6c3c149a27f59f64017c69, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584695353}
   m_SourcePrefab: {fileID: 100100000, guid: 991339d85f6c3c149a27f59f64017c69, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     
     public Vector3 initialPosition;
 
+    public Vector3 posisicionRespawn;
+
     public void Awake()
     {
         // **CORRECCIÓN CRÍTICA**: Convertir en GameObject raíz
@@ -126,7 +128,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         
         // Reubicar en posición inicial
-        transform.position = initialPosition;
+        transform.position = posisicionRespawn;
         
         // Reactivar GameObject si estaba desactivado
         gameObject.SetActive(true);
@@ -145,5 +147,10 @@ public class PlayerHealth : MonoBehaviour
         }
         
         Debug.Log("Player respawned!");
+    }
+
+    public void CambioALoby()
+    {
+        transform.position = initialPosition;
     }
 }
