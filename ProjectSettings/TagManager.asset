@@ -8,6 +8,7 @@ TagManager:
   - Capuchino
   - CafeNegro
   - B52
+  - Enemigo
   layers:
   - Default
   - TransparentFX

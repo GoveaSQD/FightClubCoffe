@@ -20,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fight.unity
     guid: 3a48cc73eada7844f889ed27c559762e
+  - enabled: 1
+    path: Assets/Scenes/Loby2.unity
+    guid: a17de820de3d71444bfd3fe71817b543
+  - enabled: 1
+    path: Assets/Scenes/Nivel2.unity
+    guid: b302575ff51fe504c8d526808c8747c1
+  - enabled: 1
+    path: Assets/Scenes/Loby3.unity
+    guid: d8fa0dafacedc23499300642f047f5f1
+  - enabled: 1
+    path: Assets/Scenes/Nivel3.unity
+    guid: b636238cc39853e49b9c174747beb27d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

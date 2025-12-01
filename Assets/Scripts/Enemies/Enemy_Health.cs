@@ -26,7 +26,25 @@ public class Enemy_Health : MonoBehaviour
 
         else if(currentHealth <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+
+    private void Die()
+    {
+        // 1. Notificar al LevelManager
+        // Usamos el patrón Singleton (LevelManager.Instance) para acceder al método.
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.EnemyDefeated(); 
+        }
+        else
+        {
+            Debug.LogError("El LevelManager no se encontró en la escena. Asegúrate de que existe.");
+        }
+        
+        // 2. Destruir el objeto del enemigo
+        Destroy(gameObject);
     }
 }
