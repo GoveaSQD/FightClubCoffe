@@ -5,10 +5,10 @@ public class Enemy_Health : MonoBehaviour
     public int currentHealth;
     public int maxHealth;
 
-    public void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+    // public void Awake()
+    // {
+    //     DontDestroyOnLoad(gameObject);
+    // }
 
     private void Start()
     {
