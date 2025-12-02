@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 316ff1018f2155c4281f02030b294e63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5778045713191813506
+    second: Mafia_0
+  - first:
+      213: 287132550764729373
+    second: Mafia_1
+  - first:
+      213: -2036261599373091155
+    second: Mafia_2
+  - first:
+      213: -6017715319736780984
+    second: Mafia_3
+  - first:
+      213: 5946693625275641880
+    second: Mafia_4
+  - first:
+      213: 1292543009669121826
+    second: Mafia_5
+  - first:
+      213: 2772022778170388017
+    second: Mafia_6
+  - first:
+      213: 2383855398055246653
+    second: Mafia_7
+  - first:
+      213: -2031508124694254567
+    second: Mafia_8
+  - first:
+      213: -7411396283603680043
+    second: Mafia_9
+  - first:
+      213: -3875844028595370509
+    second: Mafia_10
+  - first:
+      213: -5881511518617690804
+    second: Mafia_11
+  - first:
+      213: 6012692607856169806
+    second: Mafia_12
+  - first:
+      213: -8330017169637474841
+    second: Mafia_13
+  - first:
+      213: -626103826791673360
+    second: Mafia_14
+  - first:
+      213: 1315049039403440804
+    second: Mafia_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mafia_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1150
+        width: 197
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28144c676fdbf2050800000000000000
+      internalID: 5778045713191813506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1142
+        width: 192
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1498cb98891cf300800000000000000
+      internalID: 287132550764729373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1140
+        width: 191
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae199b2ddebdb3e0800000000000000
+      internalID: -2036261599373091155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_3
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1150
+        width: 204
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847b9a7ccc7cc7ca0800000000000000
+      internalID: -6017715319736780984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 833
+        width: 198
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81072a26856e68250800000000000000
+      internalID: 5946693625275641880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 829
+        width: 201
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2270e34e40900f110800000000000000
+      internalID: 1292543009669121826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 830
+        width: 208
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e232aa704387620800000000000000
+      internalID: 2772022778170388017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_7
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 829
+        width: 212
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bfaf4bad7251120800000000000000
+      internalID: 2383855398055246653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 510
+        width: 196
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c674dbf12aec3e0800000000000000
+      internalID: -2031508124694254567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 511
+        width: 199
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4072ae85e652990800000000000000
+      internalID: -7411396283603680043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_10
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 511
+        width: 195
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f501ce146c363ac0800000000000000
+      internalID: -3875844028595370509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_11
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 513
+        width: 251
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d9c667f6ca06ea0800000000000000
+      internalID: -5881511518617690804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 195
+        width: 229
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4352eaf110617350800000000000000
+      internalID: 6012692607856169806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 196
+        width: 207
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed7adeb485d56c80800000000000000
+      internalID: -8330017169637474841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 196
+        width: 200
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1d19303e1af47f0800000000000000
+      internalID: -626103826791673360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mafia_15
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 196
+        width: 205
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa5cd7422eff3210800000000000000
+      internalID: 1315049039403440804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mafia_0: 5778045713191813506
+      Mafia_1: 287132550764729373
+      Mafia_10: -3875844028595370509
+      Mafia_11: -5881511518617690804
+      Mafia_12: 6012692607856169806
+      Mafia_13: -8330017169637474841
+      Mafia_14: -626103826791673360
+      Mafia_15: 1315049039403440804
+      Mafia_2: -2036261599373091155
+      Mafia_3: -6017715319736780984
+      Mafia_4: 5946693625275641880
+      Mafia_5: 1292543009669121826
+      Mafia_6: 2772022778170388017
+      Mafia_7: 2383855398055246653
+      Mafia_8: -2031508124694254567
+      Mafia_9: -7411396283603680043
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

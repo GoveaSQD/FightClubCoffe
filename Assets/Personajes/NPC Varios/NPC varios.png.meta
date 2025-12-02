@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 745b4c3eaf4b9e84cb6b2f275b299440
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6463590387591659661
+    second: NPC varios_0
+  - first:
+      213: -4651744128744596990
+    second: NPC varios_1
+  - first:
+      213: 1131875258728880317
+    second: NPC varios_2
+  - first:
+      213: 1769633618085354165
+    second: NPC varios_3
+  - first:
+      213: -8291074198046663612
+    second: NPC varios_4
+  - first:
+      213: -8838688314867334692
+    second: NPC varios_5
+  - first:
+      213: 452581557154489475
+    second: NPC varios_6
+  - first:
+      213: -6987891530520595508
+    second: NPC varios_7
+  - first:
+      213: -3673001264162121385
+    second: NPC varios_8
+  - first:
+      213: 1402530626911219523
+    second: NPC varios_9
+  - first:
+      213: -7615228947979666232
+    second: NPC varios_10
+  - first:
+      213: 5399942587116150211
+    second: NPC varios_11
+  - first:
+      213: 6131441002269145043
+    second: NPC varios_12
+  - first:
+      213: 358511401634408646
+    second: NPC varios_13
+  - first:
+      213: -9052279843589549605
+    second: NPC varios_14
+  - first:
+      213: -1292795121609692668
+    second: NPC varios_15
+  - first:
+      213: 3858918117598219362
+    second: NPC varios_16
+  - first:
+      213: -7650205755131838058
+    second: NPC varios_17
+  - first:
+      213: -7550432070146661284
+    second: NPC varios_18
+  - first:
+      213: 6196398988785055313
+    second: NPC varios_19
+  - first:
+      213: -6685769440764388380
+    second: NPC varios_20
+  - first:
+      213: 8283929213420921196
+    second: NPC varios_21
+  - first:
+      213: -201964859635164567
+    second: NPC varios_22
+  - first:
+      213: -5938153976460562919
+    second: NPC varios_23
+  - first:
+      213: 228159576332706592
+    second: NPC varios_24
+  - first:
+      213: 5398153036766811458
+    second: NPC varios_25
+  - first:
+      213: 7694471018587607255
+    second: NPC varios_26
+  - first:
+      213: 2442352798765398019
+    second: NPC varios_27
+  - first:
+      213: -1507825271189251096
+    second: NPC varios_28
+  - first:
+      213: 5397527185389104388
+    second: NPC varios_29
+  - first:
+      213: -902682276037284117
+    second: NPC varios_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC varios_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 575
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80c702463943b950800000000000000
+      internalID: 6463590387591659661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 575
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a5b246c5fa17fb0800000000000000
+      internalID: -4651744128744596990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 575
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db896960d8a35bf00800000000000000
+      internalID: 1131875258728880317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 575
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba119456600f8810800000000000000
+      internalID: 1769633618085354165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_4
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 575
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c9503e1ff20fc80800000000000000
+      internalID: -8291074198046663612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_5
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 575
+        width: 83
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1cfe79ecba65580800000000000000
+      internalID: -8838688314867334692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 431
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38426124784e74600800000000000000
+      internalID: 452581557154489475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_7
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 431
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3fb5a2da5060f90800000000000000
+      internalID: -6987891530520595508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 431
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7595e068fc0e60dc0800000000000000
+      internalID: -3673001264162121385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_9
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 431
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f26ab9c2ac67310800000000000000
+      internalID: 1402530626911219523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 431
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc76687e95415690800000000000000
+      internalID: -7615228947979666232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_11
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 431
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cddf804c2370fa40800000000000000
+      internalID: 5399942587116150211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 288
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d774851b11471550800000000000000
+      internalID: 6131441002269145043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 288
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8a8566830b9f400800000000000000
+      internalID: 358511401634408646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 288
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd19a6b7177df5280800000000000000
+      internalID: -9052279843589549605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 288
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40aa819bfa11f0ee0800000000000000
+      internalID: -1292795121609692668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_16
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 288
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cc2c02591ad8530800000000000000
+      internalID: 3858918117598219362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_17
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 281
+        width: 83
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691c7b2f56205d590800000000000000
+      internalID: -7650205755131838058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 144
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54e03e390a773790800000000000000
+      internalID: -7550432070146661284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 144
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1567f15ec080ef550800000000000000
+      internalID: 6196398988785055313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 144
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb9319cd106733a0800000000000000
+      internalID: -6685769440764388380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_21
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 144
+        width: 78
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c616f6ebabd66f270800000000000000
+      internalID: 8283929213420921196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_22
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 144
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a955cb70a723df0800000000000000
+      internalID: -201964859635164567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 145
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91eae7b8b60779da0800000000000000
+      internalID: -5938153976460562919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0232a630de59a2300800000000000000
+      internalID: 228159576332706592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_25
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2459ea716971aea40800000000000000
+      internalID: 5398153036766811458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_26
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0d375df9048ca60800000000000000
+      internalID: 7694471018587607255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_27
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308b79a2eeaf4e120800000000000000
+      internalID: 2442352798765398019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_28
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb586797e0231be0800000000000000
+      internalID: -1507825271189251096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_29
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40da1a6b06ed7ea40800000000000000
+      internalID: 5397527185389104388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC varios_30
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1
+        width: 80
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beea1c7a0470973f0800000000000000
+      internalID: -902682276037284117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NPC varios_0: 6463590387591659661
+      NPC varios_1: -4651744128744596990
+      NPC varios_10: -7615228947979666232
+      NPC varios_11: 5399942587116150211
+      NPC varios_12: 6131441002269145043
+      NPC varios_13: 358511401634408646
+      NPC varios_14: -9052279843589549605
+      NPC varios_15: -1292795121609692668
+      NPC varios_16: 3858918117598219362
+      NPC varios_17: -7650205755131838058
+      NPC varios_18: -7550432070146661284
+      NPC varios_19: 6196398988785055313
+      NPC varios_2: 1131875258728880317
+      NPC varios_20: -6685769440764388380
+      NPC varios_21: 8283929213420921196
+      NPC varios_22: -201964859635164567
+      NPC varios_23: -5938153976460562919
+      NPC varios_24: 228159576332706592
+      NPC varios_25: 5398153036766811458
+      NPC varios_26: 7694471018587607255
+      NPC varios_27: 2442352798765398019
+      NPC varios_28: -1507825271189251096
+      NPC varios_29: 5397527185389104388
+      NPC varios_3: 1769633618085354165
+      NPC varios_30: -902682276037284117
+      NPC varios_4: -8291074198046663612
+      NPC varios_5: -8838688314867334692
+      NPC varios_6: 452581557154489475
+      NPC varios_7: -6987891530520595508
+      NPC varios_8: -3673001264162121385
+      NPC varios_9: 1402530626911219523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

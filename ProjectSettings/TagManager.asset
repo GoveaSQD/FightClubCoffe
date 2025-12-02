@@ -9,6 +9,7 @@ TagManager:
   - CafeNegro
   - B52
   - Enemigo
+  - CameraBounds
   layers:
   - Default
   - TransparentFX
