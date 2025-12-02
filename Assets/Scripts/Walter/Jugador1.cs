@@ -4,37 +4,45 @@ using UnityEngine.SceneManagement;
 
 public class Jugador1 : MonoBehaviour
 {
-    // --- VARIABLES DE CONFIGURACIÓN (Públicas para el Inspector) ---
-    public float baseSpeed = 5f;         // Velocidad inicial base
-    public int baseDano = 4;            // Daño inicial base
-    public float speedBoostAmount = 1.0f;  // Aumento de velocidad al consumir
-    public int danoBoostAmount = 2;      // Aumento de daño al consumir
-    public float buffDuration = 3f;      // Duración del efecto en segundos
-    public float stunTime = 1;        // Duración del aturdimiento por knockback
-    private bool isKnockedback;
+    // ---------------- CONFIG / STATS ----------------
+    [Header("Movimiento")]
+    public float baseSpeed = 5f;
+    [HideInInspector] public float currentSpeed;
 
-    // --- REFERENCIAS Y ESTADO ---
-    private JugadorResoursesCollector collector; // Referencia al script de recolección
-    private Rigidbody2D rb2D;
-    private Animator animator;
+    [Header("Daño / Buffs")]
+    public int baseDano = 4;
+    [HideInInspector] public int currentDano;
+    public float speedBoostAmount = 1f;
+    public int danoBoostAmount = 2;
+    public float buffDuration = 3f;
+
+    [Header("Knockback")]
+    public float defaultStunTime = 1f;
+    private bool isKnockedback = false;
+
+    // ---------------- REFERENCIAS ----------------
+    [Header("Referencias (asignar en Inspector si quieres)")]
+    public Rigidbody2D rb2D;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
+    public Player_Combat player_Combat;
+    public JugadorResoursesCollector collector; // opcional
+
+    // ---------------- RUNTIME STATE ----------------
+    [HideInInspector] public bool isFacingRight = true;
+    [HideInInspector] public bool isMoving = false;
 
     private Vector2 movementInput;
     private bool gameIsPaused = false;
 
-    private int currentDano;    // Daño total actual (base + buff)
-    private float currentSpeed; // Velocidad total actual (base + buff)
+    // ---------------- PERSISTENCIA / SINGLETON ----------------
+    private static Jugador1 instance;
 
-    public Player_Combat player_Combat;
-
-    // Dentro de la sección de REFERENCIAS Y ESTADO
-    private SpriteRenderer spriteRenderer; // Referencia al componente SpriteRenderer
-    [HideInInspector] public bool isFacingRight = true;
-
+    // ---------------- UNITY LIFECYCLE ----------------
     void Awake()
     {
-        Jugador1[] players = Object.FindObjectsByType<Jugador1>(FindObjectsSortMode.None);
-
-
+        // Evitar duplicados al usar DontDestroyOnLoad
+        Jugador1[] players = FindObjectsOfType<Jugador1>();
         if (players.Length > 1)
         {
             Destroy(gameObject);
@@ -42,29 +50,28 @@ public class Jugador1 : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
-    }
 
+        // Intentar autoconfigurar componentes si no fueron asignados
+        if (rb2D == null) rb2D = GetComponent<Rigidbody2D>();
+        if (animator == null) animator = GetComponent<Animator>();
+        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
+        if (player_Combat == null) player_Combat = GetComponent<Player_Combat>();
+        if (collector == null) collector = GetComponent<JugadorResoursesCollector>();
+    }
 
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
-        // **IMPORTANTE**: Asegúrate de que el script JugadorCollector esté en este mismo GameObject.
-        collector = GetComponent<JugadorResoursesCollector>();
-
-
-        // Inicialización de efectos al estado base
+        // Inicializar stats
         currentSpeed = baseSpeed;
         currentDano = baseDano;
 
-        // Actualizar UI inicial (Asumiendo que ConsumoCafe.Instance ya está inicializado)        
-        ConsumoCafe.Instance.UpdateDano(currentDano);
-        ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
+        // Actualizar UI si existe
+        if (ConsumoCafe.Instance != null)
+        {
+            ConsumoCafe.Instance.UpdateDano(currentDano);
+            ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
+        }
     }
-
-
 
     void OnEnable()
     {
@@ -78,6 +85,7 @@ public class Jugador1 : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        // Reposicionar en spawn si existe
         GameObject spawn = GameObject.Find("PlayerSpawn");
         if (spawn != null)
         {
@@ -85,95 +93,72 @@ public class Jugador1 : MonoBehaviour
         }
     }
 
-
-    public void ResetStatsToBase()
-    {
-        currentSpeed = baseSpeed;
-        currentDano = baseDano;
-
-        ConsumoCafe.Instance.UpdateDano(currentDano);
-        ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
-    }
-
-
     void Update()
     {
-        if (Input.GetButtonDown("Slash"))
+        // Input de ataque: permitir que Player_Combat gestione su cooldown internamente
+        if (Input.GetButtonDown("Slash") || Input.GetKeyDown(KeyCode.Space))
         {
-            player_Combat.Attack();
+            // Dejar que Player_Combat gestione condiciones (ej. cooldown)
+            if (player_Combat != null)
+                player_Combat.Attack();
         }
 
-
-        if (gameIsPaused)
-        {
-            // Opcional: Detener la animación si está pausado
-            animator.SetFloat("Speed", 0);
-        }
-
-
-        if (!gameIsPaused)
-        {
-            // 1. Obtención del Input (Siempre primero si no está pausado)
-            if (isKnockedback == false)
-            {
-                movementInput.x = Input.GetAxisRaw("Horizontal");
-                movementInput.y = Input.GetAxisRaw("Vertical");
-                movementInput = movementInput.normalized;
-            }
-            else
-            {
-                // Si hay knockback, la entrada debe ser cero para que solo el knockback lo mueva
-                movementInput = Vector2.zero;
-            }
-
-            // 2. Lógica de Volteo (DEBE ir aquí, y no debe hacer 'return')
-            // Voltear solo si NO está atacando (para evitar volteos raros en medio del golpe)
-            if (isKnockedback == false && !animator.GetBool("isAttacking"))
-            {
-                if (movementInput.x > 0.1f && !isFacingRight)
-                    Flip();
-                else if (movementInput.x < -0.1f && isFacingRight)
-                    Flip();
-            }
-
-            // 3. Actualización de Animación
-            animator.SetFloat("Horizontal", movementInput.x);
-            animator.SetFloat("Vertical", movementInput.y);
-            // Usa la magnitud del input (será 0 si hay knockback o si no hay entrada)
-            animator.SetFloat("Speed", movementInput.magnitude);
-        }
-
-        
+        // Atajos UI / pausa / inventario
         OpenCloseInventory();
         OpenClosePauseMenu();
         CheckConsumoInput();
+
+        // Pausa visual
+        if (gameIsPaused)
+        {
+            if (animator != null) animator.SetFloat("Speed", 0f);
+            return;
+        }
+
+        // Movimiento: leer input salvo esté en knockback
+        if (!isKnockedback)
+        {
+            movementInput.x = Input.GetAxisRaw("Horizontal");
+            movementInput.y = Input.GetAxisRaw("Vertical");
+            movementInput = movementInput.normalized;
+        }
+        else
+        {
+            // si hay knockback, anular input de movimiento (solo knockback debe mover)
+            movementInput = Vector2.zero;
+        }
+
+        // Actualizar bandera isMoving
+        isMoving = movementInput.magnitude > 0.1f;
+
+        // Volteo: permitir flip solo si no hay knockback
+        if (!isKnockedback)
+        {
+            if (movementInput.x > 0.1f && !isFacingRight)
+                Flip();
+            else if (movementInput.x < -0.1f && isFacingRight)
+                Flip();
+        }
+
+        // Animaciones: setear parámetros (mantener compatibilidad con tu animator)
+        if (animator != null)
+        {
+            animator.SetFloat("Horizontal", movementInput.x);
+            animator.SetFloat("Vertical", movementInput.y);
+            animator.SetFloat("Speed", movementInput.magnitude);
+        }
     }
 
-
-    // --- Nuevo Método de Volteo ---
-
-    private void Flip()
-    {
-        // Cambia el estado de la orientación
-        isFacingRight = !isFacingRight;
-
-        // Voltea el sprite horizontalmente (Refleja)
-        // El 'flipX' del SpriteRenderer hace que el sprite se refleje en su eje Y.
-        spriteRenderer.flipX = !isFacingRight;
-
-        // Si isFacingRight es TRUE (mirando a la derecha), flipX es FALSE.
-        // Si isFacingRight es FALSE (mirando a la izquierda), flipX es TRUE.
-
-        // Opcional: Si el componente de ataque (attackPoint) es hijo del jugador,
-        // es posible que debas reposicionarlo o escalarlo negativamente. 
-        // Lo abordaremos en el script de combate.
-    }
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         if (!gameIsPaused)
         {
-            // Usa currentSpeed para aplicar el movimiento
-            rb2D.linearVelocity = movementInput * currentSpeed;
+            if (!isKnockedback)
+            {
+                // Aplicar movimiento usando currentSpeed
+                rb2D.linearVelocity = movementInput * currentSpeed;
+            }
+            // si está en knockback, no sobreescribimos la velocidad aquí
         }
         else
         {
@@ -181,34 +166,16 @@ public class Jugador1 : MonoBehaviour
         }
     }
 
-    // --- MÉTODOS DE UI Y PAUSA ---
+    // ---------------- HELPERS ----------------
 
-    void OpenCloseInventory()
+    private void Flip()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            UIManager.Instance.OpenCloseInventory();
-        }
+        isFacingRight = !isFacingRight;
+        if (spriteRenderer != null)
+            spriteRenderer.flipX = !isFacingRight;
     }
 
-    void OpenClosePauseMenu()
-    {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            if (gameIsPaused)
-            {
-                UIManager.Instance.ResumeGame();
-                gameIsPaused = false;
-            }
-            else
-            {
-                UIManager.Instance.PauseGame();
-                gameIsPaused = true;
-            }
-        }
-    }
-
-    // --- MÉTODOS DE CONSUMO ---
+    // ---------------- CONSUMO / BUFF ----------------
 
     void CheckConsumoInput()
     {
@@ -222,67 +189,119 @@ public class Jugador1 : MonoBehaviour
     {
         if (collector != null && collector.GetItemCount(itemTag) > 0)
         {
-            // 1. Reducir el inventario (Actualiza el contador del inventario)
             collector.DecreaseItemCount(itemTag);
-
-            // 2. Detener y Reiniciar el Buff (para que cada consumo refresque el temporizador)
-            StopCoroutine("ApplyBuff");
-            StartCoroutine("ApplyBuff");
-
-            Debug.Log($"Consumiste {itemTag}. Iniciando buff de {buffDuration} segundos.");
+            StopCoroutine(ApplyBuffCoroutineName);
+            StartCoroutine(ApplyBuff());
         }
         else
         {
-            Debug.Log($"No tienes {itemTag} para consumir o el Collector es nulo.");
+            Debug.Log($"No tienes {itemTag} o collector es nulo.");
         }
     }
 
-    // --- CORRUTINA DE EFECTO TEMPORAL ---
-
+    const string ApplyBuffCoroutineName = "ApplyBuff";
     IEnumerator ApplyBuff()
     {
-        // --- 1. APLICAR BUFF ---
-
-        // Aplicar el aumento de daño y velocidad
         currentDano += danoBoostAmount;
         currentSpeed += speedBoostAmount;
 
-        // Actualizar UI
-        ConsumoCafe.Instance.UpdateDano(currentDano);
-        ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
+        if (ConsumoCafe.Instance != null)
+        {
+            ConsumoCafe.Instance.UpdateDano(currentDano);
+            ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
+        }
 
-        Debug.Log("Buff APLICADO: +Daño y +Velocidad.");
-
-        // --- 2. ESPERAR ---
-
-        // La ejecución se detiene aquí por la duración
         yield return new WaitForSeconds(buffDuration);
 
-        // --- 3. QUITAR BUFF ---
-
-        // Revertir el daño y la velocidad
         currentDano -= danoBoostAmount;
         currentSpeed -= speedBoostAmount;
 
-        // Actualizar UI
-        ConsumoCafe.Instance.UpdateDano(currentDano);
-        ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
-
-        Debug.Log("Buff TERMINADO: Daño y Velocidad restaurados.");
+        if (ConsumoCafe.Instance != null)
+        {
+            ConsumoCafe.Instance.UpdateDano(currentDano);
+            ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
+        }
     }
 
+    // ---------------- KNOCKBACK ----------------
+
+    /// <summary>
+    /// Empuja al jugador y evita que controle durante stunTime segundos.
+    /// </summary>
     public void Knockback(Transform enemy, float force, float stunTime)
     {
+        // cancelar animación de ataque para evitar que se quede atascada
+        if (animator != null) animator.SetBool("isAttacking", false);
+
         isKnockedback = true;
-        Vector2 direction = (transform.position - enemy.position).normalized * force;
-        rb2D.linearVelocity = direction * force;
-        StartCoroutine(KnockbackCounter(stunTime));
+
+        Vector2 dir = (transform.position - enemy.position).normalized;
+        rb2D.linearVelocity = dir * force;
+
+        // iniciar fin del knockback
+        StopCoroutine(KnockbackCoroutineName);
+        StartCoroutine(KnockbackCoroutine(stunTime));
     }
 
-    IEnumerator KnockbackCounter(float stunTime)
+    const string KnockbackCoroutineName = "KnockbackCoroutine";
+    IEnumerator KnockbackCoroutine(float stunTime)
     {
         yield return new WaitForSeconds(stunTime);
         rb2D.linearVelocity = Vector2.zero;
         isKnockedback = false;
+
+        // asegurarse que la animación de ataque está en false
+        if (animator != null) animator.SetBool("isAttacking", false);
+    }
+
+    // ---------------- UI / PAUSA / INVENTARIO ----------------
+    void OpenCloseInventory()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (UIManager.Instance != null) UIManager.Instance.OpenCloseInventory();
+        }
+    }
+
+    void OpenClosePauseMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (gameIsPaused)
+            {
+                if (UIManager.Instance != null) UIManager.Instance.ResumeGame();
+                gameIsPaused = false;
+            }
+            else
+            {
+                if (UIManager.Instance != null) UIManager.Instance.PauseGame();
+                gameIsPaused = true;
+            }
+        }
+    }
+
+    // ---------------- UTIL ----------------
+    public int GetCurrentDano()
+    {
+        return currentDano;
+    }
+
+    // Para reiniciar stats si comienzas partida nueva
+    public void ResetStatsToBase()
+    {
+        currentSpeed = baseSpeed;
+        currentDano = baseDano;
+
+        if (ConsumoCafe.Instance != null)
+        {
+            ConsumoCafe.Instance.UpdateDano(currentDano);
+            ConsumoCafe.Instance.UpdateVelocidad((int)currentSpeed);
+        }
+    }
+
+    // ---------------- GIZMOS (opcional) ----------------
+    void OnDrawGizmosSelected()
+    {
+        // Useful for debugging movement/hitboxes in scene if needed
     }
 }

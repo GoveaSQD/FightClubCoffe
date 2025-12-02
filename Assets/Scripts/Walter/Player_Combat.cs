@@ -2,60 +2,86 @@ using UnityEngine;
 
 public class Player_Combat : MonoBehaviour
 {
+    public Animator anim;
+
+    [Header("Ataque")]
     public Transform attackPoint;
-    public float weaponRange = 1f;
-    public LayerMask enemyLayer;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+    public float attackRate = 2f;
     public int damage = 1;
 
-    public Animator anim;
-    private Jugador1 jugador1;
+    private float nextAttackTime = 0f;
+    private Jugador1 player;
+    private Vector3 originalOffset;
 
-    // 💥 CORRECCIÓN: Usar el mismo nombre para la declaración y el uso
-    private Vector3 originalAttackPointPosition; 
-
-    void Start()
+    private void Awake()
     {
-        jugador1 = GetComponent<Jugador1>();
-        
-        // 🚀 Inicialización: Guarda la posición local original
+        player = GetComponent<Jugador1>();
+        anim = GetComponent<Animator>();
+
         if (attackPoint != null)
-        {
-            originalAttackPointPosition = attackPoint.localPosition;
-        }
+            originalOffset = attackPoint.localPosition;
         else
+            Debug.LogError("ERROR: 'attackPoint' no está asignado.");
+    }
+
+    private void Update()
+    {
+        // NO atacar si se mueve
+        if (player != null && player.isMoving)
+            return;
+
+        if (Time.time >= nextAttackTime)
         {
-            Debug.LogError("Player_Combat requiere que la referencia 'attackPoint' esté asignada en el Inspector.");
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Attack();
+                nextAttackTime = Time.time + (1f / attackRate);
+            }
         }
     }
 
-    // *** CAMBIO CLAVE 4: Recibir la dirección de ataque ***
     public void Attack()
     {
-        if (jugador1 == null || attackPoint == null) return;
-
-        // 1. Obtener la dirección actual del sprite del Jugador1
-        float direction = jugador1.isFacingRight ? 1f : -1f;
-
-        // 2. Mover el AttackPoint a la izquierda o derecha
-        // Esto cambia la posición local X del attackPoint para reflejar la dirección del jugador.
-        attackPoint.localPosition = new Vector3(
-            originalAttackPointPosition.x * direction, 
-            originalAttackPointPosition.y, 
-            originalAttackPointPosition.z
-        );
+        if (attackPoint == null) return;
 
         anim.SetBool("isAttacking", true);
+
+        // Ajustar hitbox al lado correcto
+        float dir = player.isFacingRight ? 1f : -1f;
+
+        attackPoint.localPosition = new Vector3(
+            Mathf.Abs(originalOffset.x) * dir,
+            originalOffset.y,
+            originalOffset.z
+        );
+
+        // Detectar enemigos
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            attackRange,
+            enemyLayers
+        );
+
+        foreach (Collider2D enemy in hits)
+        {
+            Enemy_Health eh = enemy.GetComponent<Enemy_Health>();
+            if (eh != null)
+                eh.ChangeHealth(-damage);
+        }
     }
 
+    // 🔥 ESTE ES EL NOMBRE EXACTO QUE DEBE TENER EN TU ANIMACIÓN
     public void FinishAttacking()
     {
         anim.SetBool("isAttacking", false);
+    }
 
-        Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, weaponRange, enemyLayer);
-
-        if(enemies.Length > 0)
-        {
-            enemies[0].GetComponent<Enemy_Health>()?.ChangeHealth(-damage);
-        }
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null) return;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
