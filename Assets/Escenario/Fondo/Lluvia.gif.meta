@@ -1,0 +1,1859 @@
+fileFormatVersion: 2
+guid: 3846c83d60f47af47878170a6a8abbd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5030624538600238232
+    second: Lluvia_0
+  - first:
+      213: -7069112515680939033
+    second: Lluvia_1
+  - first:
+      213: 402857273707108984
+    second: Lluvia_2
+  - first:
+      213: -7830800275191759659
+    second: Lluvia_3
+  - first:
+      213: -3436747924025123683
+    second: Lluvia_4
+  - first:
+      213: -8417819287794372997
+    second: Lluvia_5
+  - first:
+      213: 273673737235430501
+    second: Lluvia_6
+  - first:
+      213: -1357786840120094826
+    second: Lluvia_7
+  - first:
+      213: -685088933848423688
+    second: Lluvia_8
+  - first:
+      213: -2512644574578267147
+    second: Lluvia_9
+  - first:
+      213: -5000621443254860829
+    second: Lluvia_10
+  - first:
+      213: -6177276542103808158
+    second: Lluvia_11
+  - first:
+      213: 5697938327874226602
+    second: Lluvia_12
+  - first:
+      213: -3617933226695067620
+    second: Lluvia_13
+  - first:
+      213: -2504443209108219605
+    second: Lluvia_14
+  - first:
+      213: 4314977016807819769
+    second: Lluvia_15
+  - first:
+      213: 6501594734619838191
+    second: Lluvia_16
+  - first:
+      213: -506605963661602025
+    second: Lluvia_17
+  - first:
+      213: 3046749168655807427
+    second: Lluvia_18
+  - first:
+      213: 8991249258516345107
+    second: Lluvia_19
+  - first:
+      213: -7837321002751715065
+    second: Lluvia_20
+  - first:
+      213: -2277440668962463231
+    second: Lluvia_21
+  - first:
+      213: 7030634214846540026
+    second: Lluvia_22
+  - first:
+      213: 4181947325200898259
+    second: Lluvia_23
+  - first:
+      213: -2989054420885511060
+    second: Lluvia_24
+  - first:
+      213: 1514579170106250870
+    second: Lluvia_25
+  - first:
+      213: -1200608021597605907
+    second: Lluvia_26
+  - first:
+      213: 1411146989678372207
+    second: Lluvia_27
+  - first:
+      213: 8951032516252308969
+    second: Lluvia_28
+  - first:
+      213: 1512128008410808916
+    second: Lluvia_29
+  - first:
+      213: -1973457824542008408
+    second: Lluvia_30
+  - first:
+      213: 4645994545332598462
+    second: Lluvia_31
+  - first:
+      213: 1038680164553266996
+    second: Lluvia_32
+  - first:
+      213: 2506372335059815624
+    second: Lluvia_33
+  - first:
+      213: 5915541173178109549
+    second: Lluvia_34
+  - first:
+      213: 6658757339365617044
+    second: Lluvia_35
+  - first:
+      213: -1525165914419871332
+    second: Lluvia_36
+  - first:
+      213: -2020800664156621915
+    second: Lluvia_37
+  - first:
+      213: -3007703634791673539
+    second: Lluvia_38
+  - first:
+      213: 7355775610608685323
+    second: Lluvia_39
+  - first:
+      213: -7339969687804346705
+    second: Lluvia_40
+  - first:
+      213: 4844556205076399648
+    second: Lluvia_41
+  - first:
+      213: 429502193903412523
+    second: Lluvia_42
+  - first:
+      213: 1124598669500595220
+    second: Lluvia_43
+  - first:
+      213: -9041080793343834028
+    second: Lluvia_44
+  - first:
+      213: -2285789993345652201
+    second: Lluvia_45
+  - first:
+      213: 2592889168119489785
+    second: Lluvia_46
+  - first:
+      213: -3180215357262590706
+    second: Lluvia_47
+  - first:
+      213: 6510135616851135944
+    second: Lluvia_48
+  - first:
+      213: 3956297536914805556
+    second: Lluvia_49
+  - first:
+      213: -4061652063848500024
+    second: Lluvia_50
+  - first:
+      213: 3699033763073971482
+    second: Lluvia_51
+  - first:
+      213: -2934835451885032411
+    second: Lluvia_52
+  - first:
+      213: 102618081007408068
+    second: Lluvia_53
+  - first:
+      213: -4809403729768885241
+    second: Lluvia_54
+  - first:
+      213: -9174061136564244717
+    second: Lluvia_55
+  - first:
+      213: -2992231265866176142
+    second: Lluvia_56
+  - first:
+      213: 1340973832876684448
+    second: Lluvia_57
+  - first:
+      213: 3733786409541908404
+    second: Lluvia_58
+  - first:
+      213: 790726280947568659
+    second: Lluvia_59
+  - first:
+      213: -2705426633240673773
+    second: Lluvia_60
+  - first:
+      213: 179168836932431926
+    second: Lluvia_61
+  - first:
+      213: 666362390936990
+    second: Lluvia_62
+  - first:
+      213: -145750334329048698
+    second: Lluvia_63
+  - first:
+      213: -8111793667591547689
+    second: Lluvia_64
+  - first:
+      213: 8837724423804066812
+    second: Lluvia_65
+  - first:
+      213: 1275312500199499706
+    second: Lluvia_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lluvia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 380
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8639e52b2a1af2ab0800000000000000
+      internalID: -5030624538600238232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 550
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3d199ee9775ed90800000000000000
+      internalID: -7069112515680939033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 427
+        width: 9
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a9e765e8c379500800000000000000
+      internalID: 402857273707108984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 153
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcf92a93a8635390800000000000000
+      internalID: -7830800275191759659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 295
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cdbe5c8f73e40d0800000000000000
+      internalID: -3436747924025123683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 338
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ea59f05f5ed2b80800000000000000
+      internalID: -8417819287794372997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 552
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c754460d84cc300800000000000000
+      internalID: 273673737235430501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 386
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f01f1101c282de0800000000000000
+      internalID: -1357786840120094826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_8
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 589
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2e9629e331e76f0800000000000000
+      internalID: -685088933848423688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 315
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb237d621b412dd0800000000000000
+      internalID: -2512644574578267147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 49
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3c792ba493a9ab0800000000000000
+      internalID: -5000621443254860829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 95
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2679c8ca6b7e54aa0800000000000000
+      internalID: -6177276542103808158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 371
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9c60168b4231f40800000000000000
+      internalID: 5697938327874226602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_13
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 377
+        width: 6
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18f1c126e48acdc0800000000000000
+      internalID: -3617933226695067620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 412
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2917f0ab2e6e3dd0800000000000000
+      internalID: -2504443209108219605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 218
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f90ecc2cb0e1eb30800000000000000
+      internalID: 4314977016807819769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_16
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 431
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6c096d6fd4a3a50800000000000000
+      internalID: 6501594734619838191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_17
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 340
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7131bd66f8c28f8f0800000000000000
+      internalID: -506605963661602025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_18
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 588
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3327df93a384a20800000000000000
+      internalID: 3046749168655807427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 492
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3117cdc109557cc70800000000000000
+      internalID: 8991249258516345107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_20
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 402
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7099648621e3c3390800000000000000
+      internalID: -7837321002751715065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_21
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 369
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102e67927c7e460e0800000000000000
+      internalID: -2277440668962463231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_22
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 563
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8a2a98194d19160800000000000000
+      internalID: 7030634214846540026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_23
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 262
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d89ef37fe2490a30800000000000000
+      internalID: 4181947325200898259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_24
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 229
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64eec447deb486d0800000000000000
+      internalID: -2989054420885511060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_25
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 339
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676936a0bbdd40510800000000000000
+      internalID: 1514579170106250870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_26
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 33
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defa03e8d55965fe0800000000000000
+      internalID: -1200608021597605907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_27
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 349
+        width: 6
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6524a5e5b6659310800000000000000
+      internalID: 1411146989678372207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_28
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5903026a4783c70800000000000000
+      internalID: 8951032516252308969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_29
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 325
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452ce3c79682cf410800000000000000
+      internalID: 1512128008410808916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 249
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab55fc709edc94e0800000000000000
+      internalID: -1973457824542008408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_31
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 294
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b3f66c63e97040800000000000000
+      internalID: 4645994545332598462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_32
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 347
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43711734b122a6e00800000000000000
+      internalID: 1038680164553266996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_33
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 496
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc4b120c5c68c220800000000000000
+      internalID: 2506372335059815624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_34
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 217
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e8a79ea59381250800000000000000
+      internalID: 5915541173178109549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_35
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 526
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49da9624588a86c50800000000000000
+      internalID: 6658757339365617044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_36
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 6
+        width: 188
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9148777ea585dae0800000000000000
+      internalID: -1525165914419871332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_37
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 530
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3321ba08ca4f3e0800000000000000
+      internalID: -2020800664156621915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_38
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 558
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31579aca7d7246d0800000000000000
+      internalID: -3007703634791673539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_39
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 364
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0110ddf1f6f41660800000000000000
+      internalID: 7355775610608685323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_40
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 411
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae79403570332a90800000000000000
+      internalID: -7339969687804346705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_41
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 130
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0264ef173325b3340800000000000000
+      internalID: 4844556205076399648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_42
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 609
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b252dd148f5e5f500800000000000000
+      internalID: 429502193903412523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_43
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 522
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cb57218806b9f00800000000000000
+      internalID: 1124598669500595220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_44
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 198
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458422f8be0a78280800000000000000
+      internalID: -9041080793343834028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_45
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 380
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a6d779c1e3740e0800000000000000
+      internalID: -2285789993345652201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_46
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 191
+        width: 6
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f468bfe5facbf320800000000000000
+      internalID: 2592889168119489785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_47
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 234
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d0f196bfa9dd3d0800000000000000
+      internalID: -3180215357262590706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_48
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 216
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdc702f9d5a85a50800000000000000
+      internalID: 6510135616851135944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_49
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 0
+        width: 372
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4335f8106a797e630800000000000000
+      internalID: 3956297536914805556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_50
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 580
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4f31da7fc12a7c0800000000000000
+      internalID: -4061652063848500024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_51
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 269
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a155334fb9b955330800000000000000
+      internalID: 3699033763073971482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_52
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 584
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c6b28b4be5547d0800000000000000
+      internalID: -2934835451885032411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_53
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 205
+        width: 6
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c39af9d9929c6100800000000000000
+      internalID: 102618081007408068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_54
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 459
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704dfa10ac0914db0800000000000000
+      internalID: -4809403729768885241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_55
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 558
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f2f57a0003fa080800000000000000
+      internalID: -9174061136564244717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_56
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 549
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279aa3864857976d0800000000000000
+      internalID: -2992231265866176142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_57
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 454
+        width: 6
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a475b1a8981c9210800000000000000
+      internalID: 1340973832876684448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_58
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 154
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b73deff4f211d330800000000000000
+      internalID: 3733786409541908404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_59
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 371
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3101272fc5939fa00800000000000000
+      internalID: 790726280947568659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_60
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 433
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3120fcf9fc4647ad0800000000000000
+      internalID: -2705426633240673773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_61
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 310
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6307d20ab198c7200800000000000000
+      internalID: 179168836932431926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_62
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 511
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d7a959d0e520000800000000000000
+      internalID: 666362390936990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_63
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 472
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6813c68d7d03afdf0800000000000000
+      internalID: -145750334329048698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_64
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 567
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d451ff23ae1d6f80800000000000000
+      internalID: -8111793667591547689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_65
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 567
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb92a70a87e5aa70800000000000000
+      internalID: 8837724423804066812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lluvia_66
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 317
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7a10846f1d2b110800000000000000
+      internalID: 1275312500199499706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lluvia_0: -5030624538600238232
+      Lluvia_1: -7069112515680939033
+      Lluvia_10: -5000621443254860829
+      Lluvia_11: -6177276542103808158
+      Lluvia_12: 5697938327874226602
+      Lluvia_13: -3617933226695067620
+      Lluvia_14: -2504443209108219605
+      Lluvia_15: 4314977016807819769
+      Lluvia_16: 6501594734619838191
+      Lluvia_17: -506605963661602025
+      Lluvia_18: 3046749168655807427
+      Lluvia_19: 8991249258516345107
+      Lluvia_2: 402857273707108984
+      Lluvia_20: -7837321002751715065
+      Lluvia_21: -2277440668962463231
+      Lluvia_22: 7030634214846540026
+      Lluvia_23: 4181947325200898259
+      Lluvia_24: -2989054420885511060
+      Lluvia_25: 1514579170106250870
+      Lluvia_26: -1200608021597605907
+      Lluvia_27: 1411146989678372207
+      Lluvia_28: 8951032516252308969
+      Lluvia_29: 1512128008410808916
+      Lluvia_3: -7830800275191759659
+      Lluvia_30: -1973457824542008408
+      Lluvia_31: 4645994545332598462
+      Lluvia_32: 1038680164553266996
+      Lluvia_33: 2506372335059815624
+      Lluvia_34: 5915541173178109549
+      Lluvia_35: 6658757339365617044
+      Lluvia_36: -1525165914419871332
+      Lluvia_37: -2020800664156621915
+      Lluvia_38: -3007703634791673539
+      Lluvia_39: 7355775610608685323
+      Lluvia_4: -3436747924025123683
+      Lluvia_40: -7339969687804346705
+      Lluvia_41: 4844556205076399648
+      Lluvia_42: 429502193903412523
+      Lluvia_43: 1124598669500595220
+      Lluvia_44: -9041080793343834028
+      Lluvia_45: -2285789993345652201
+      Lluvia_46: 2592889168119489785
+      Lluvia_47: -3180215357262590706
+      Lluvia_48: 6510135616851135944
+      Lluvia_49: 3956297536914805556
+      Lluvia_5: -8417819287794372997
+      Lluvia_50: -4061652063848500024
+      Lluvia_51: 3699033763073971482
+      Lluvia_52: -2934835451885032411
+      Lluvia_53: 102618081007408068
+      Lluvia_54: -4809403729768885241
+      Lluvia_55: -9174061136564244717
+      Lluvia_56: -2992231265866176142
+      Lluvia_57: 1340973832876684448
+      Lluvia_58: 3733786409541908404
+      Lluvia_59: 790726280947568659
+      Lluvia_6: 273673737235430501
+      Lluvia_60: -2705426633240673773
+      Lluvia_61: 179168836932431926
+      Lluvia_62: 666362390936990
+      Lluvia_63: -145750334329048698
+      Lluvia_64: -8111793667591547689
+      Lluvia_65: 8837724423804066812
+      Lluvia_66: 1275312500199499706
+      Lluvia_7: -1357786840120094826
+      Lluvia_8: -685088933848423688
+      Lluvia_9: -2512644574578267147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

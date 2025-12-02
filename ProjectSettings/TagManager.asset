@@ -10,6 +10,7 @@ TagManager:
   - B52
   - Enemigo
   - CameraBounds
+  - CameraConfiner
   layers:
   - Default
   - TransparentFX

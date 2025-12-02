@@ -374,8 +374,8 @@ GameObject:
   - component: {fileID: 290514729}
   - component: {fileID: 290514728}
   m_Layer: 0
-  m_Name: CameraBounds
-  m_TagString: CameraBounds
+  m_Name: CameraConfiner
+  m_TagString: CameraConfiner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
