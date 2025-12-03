@@ -89,6 +89,42 @@ public class Jugador1 : MonoBehaviour
 
     void Update()
     {
+if (spriteRenderer != null)
+{
+    float rawX = Input.GetAxisRaw("Horizontal");
+    float dirXToUse = 0f;
+
+    // Determinamos la dirección que DEBE mirar el personaje.
+
+    // 1. PRIORIDAD: Ataque
+    if (player_Combat.isAttacking)
+    {
+        // Usa la dirección que calculaste en Player_Combat
+        dirXToUse = player_Combat.LastAttackX;
+    }
+    // 2. PRIORIDAD: Movimiento o Idle
+    else if (Mathf.Abs(rawX) > 0.1f)
+    {
+        // Si hay input horizontal, usa esa dirección
+        dirXToUse = rawX;
+    }
+    else
+    {
+        // Si estás quieto (IDLE), usa la última dirección horizontal registrada en el Animator.
+        dirXToUse = animator.GetFloat("Horizontal");
+    }
+
+
+    // 3. Aplicar el Flip
+    if (Mathf.Abs(dirXToUse) > 0.1f)
+    {
+        // Si la dirección horizontal es negativa (-1), voltea el sprite (flipX = true).
+        spriteRenderer.flipX = dirXToUse < 0f;
+    }
+    // NOTA: Si dirXToUse es 0 (ej. Idle, o moviéndose solo verticalmente),
+    // el flipX se mantendrá como estaba, manteniendo la última dirección mirando.
+}
+
         if (Input.GetButtonDown("Slash"))
         {
             // Pasamos la llamada tal cual al Player_Combat (usa Input dentro si quieres)
@@ -132,19 +168,6 @@ public class Jugador1 : MonoBehaviour
         else
         {
             movementInput = Vector2.zero;
-        }
-
-        // --- Nuevo: flip controlado SOLO si hay movimiento horizontal visible ---
-        // Esto evita que al moverte verticalmente el sprite se vea volteado.
-        if (spriteRenderer != null)
-        {
-            // Si hay movimiento horizontal suficiente, aplicamos flip según su signo
-            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.1f)
-            {
-                spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") < 0f;
-            }
-            // Si no hay movimiento horizontal (ej. estás yendo arriba/abajo),
-            // dejamos el flip tal como está (no lo cambiamos), evitando que mire a la izquierda por accidente.
         }
 
         OpenCloseInventory();

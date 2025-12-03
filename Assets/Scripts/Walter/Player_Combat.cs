@@ -10,22 +10,31 @@ public class Player_Combat : MonoBehaviour
     public Animator anim;
     public bool isAttacking = false;
 
+    // Propiedad para que Jugador1 pueda leer la dirección del ataque.
+    public float LastAttackX => lastAttackX;
+
     private float lastAttackX = 1f;  // 1 = derecha, -1 = izquierda (por defecto derecha)
 
     public void Attack()
     {
+        // 1. Iniciar Ataque
         isAttacking = true;
         anim.SetBool("isAttacking", true);
 
+        // 2. Determinar la dirección del ataque
         // Leer input del jugador SOLO para decidir izquierda/derecha
-        float x = Input.GetAxisRaw("Horizontal");
+        float x = Input.GetAxisRaw("Horizontal"); // <-- Aquí se declara 'x'
 
-        // Si no se está moviendo, usamos la última dirección usada para atacar
+        // Si hay movimiento horizontal, actualiza la dirección del ataque.
         if (x != 0)
+        {
             lastAttackX = Mathf.Sign(x);
+        }
 
-        // Enviamos solo esto al animator, nada más
-        anim.SetFloat("AttackX", lastAttackX);
+        // 3. Enviar la dirección al Animator
+        anim.SetFloat("AttackX", lastAttackX); 
+
+        
     }
 
     // Evento de animación
