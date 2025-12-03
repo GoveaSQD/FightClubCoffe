@@ -7,54 +7,44 @@ public class Player_Combat : MonoBehaviour
     public LayerMask enemyLayer;
     public int damage = 1;
 
-    public Vector2 lastAttackDirection = Vector2.right; 
     public Animator anim;
-
     public bool isAttacking = false;
+
+    private float lastAttackX = 1f;  // 1 = derecha, -1 = izquierda (por defecto derecha)
 
     public void Attack()
     {
         isAttacking = true;
         anim.SetBool("isAttacking", true);
 
-        // Obtener la dirección horizontal actual del animator
-        float dirX = anim.GetFloat("Horizontal");
+        // Leer input del jugador SOLO para decidir izquierda/derecha
+        float x = Input.GetAxisRaw("Horizontal");
 
-        // Si no hay input, usa la última dirección almacenada
-        if (dirX == 0)
-            dirX = lastAttackDirection.x;
+        // Si no se está moviendo, usamos la última dirección usada para atacar
+        if (x != 0)
+            lastAttackX = Mathf.Sign(x);
 
-        // Almacenar la dirección final solo en eje X
-        lastAttackDirection = new Vector2(dirX, 0);
-
-        // Pasar la dirección al animator
-        anim.SetFloat("AttackX", lastAttackDirection.x);
+        // Enviamos solo esto al animator, nada más
+        anim.SetFloat("AttackX", lastAttackX);
     }
 
-    // Este método lo llamas desde un Animation Event al final del ataque
+    // Evento de animación
     public void FinishAttacking()
     {
         isAttacking = false;
         anim.SetBool("isAttacking", false);
 
-        // Detección de golpe
-        Collider2D[] enemies = Physics2D.OverlapCircleAll(
-            attackPoint.position,
-            weaponRange,
-            enemyLayer
-        );
-
+        // Detectar enemigos
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, weaponRange, enemyLayer);
         if (enemies.Length > 0)
         {
             enemies[0].GetComponent<Enemy_Health>()?.ChangeHealth(-damage);
         }
     }
 
-    // Para visualizar el rango de ataque en el editor
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
-
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, weaponRange);
     }

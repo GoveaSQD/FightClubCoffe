@@ -1715,7 +1715,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.570165, y: 7.624104, z: -9.835513}
+  m_LocalPosition: {x: 1.9660873, y: -1.2074156, z: -9.835513}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1766,7 +1766,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ecdfe4b6f794c45489896bd2a883610c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.24
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2826,11 +2826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4405713233425854802, guid: ce8a2825cb25c05429382d7501b82c1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17
+      value: -20.01
       objectReference: {fileID: 0}
     - target: {fileID: 4405713233425854802, guid: ce8a2825cb25c05429382d7501b82c1c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.3
+      value: -12.11
       objectReference: {fileID: 0}
     - target: {fileID: 4405713233425854802, guid: ce8a2825cb25c05429382d7501b82c1c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4695,7 +4695,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 1
-  lastAttackDirection: {x: 0, y: 0}
   anim: {fileID: 1584695341}
   isAttacking: 0
 --- !u!114 &1584695353
@@ -5125,8 +5124,8 @@ Transform:
   m_GameObject: {fileID: 1714225894}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.061806, y: -12.356114, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -23.03, y: -12.65, z: 0}
+  m_LocalScale: {x: 0.8676, y: 0.8676, z: 0.8676}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
