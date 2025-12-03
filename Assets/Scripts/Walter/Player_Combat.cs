@@ -2,86 +2,60 @@ using UnityEngine;
 
 public class Player_Combat : MonoBehaviour
 {
-    public Animator anim;
-
-    [Header("Ataque")]
     public Transform attackPoint;
-    public float attackRange = 0.5f;
-    public LayerMask enemyLayers;
-    public float attackRate = 2f;
+    public float weaponRange = 1f;
+    public LayerMask enemyLayer;
     public int damage = 1;
 
-    private float nextAttackTime = 0f;
-    private Jugador1 player;
-    private Vector3 originalOffset;
+    public Vector2 lastAttackDirection = Vector2.right; 
+    public Animator anim;
 
-    private void Awake()
-    {
-        player = GetComponent<Jugador1>();
-        anim = GetComponent<Animator>();
-
-        if (attackPoint != null)
-            originalOffset = attackPoint.localPosition;
-        else
-            Debug.LogError("ERROR: 'attackPoint' no está asignado.");
-    }
-
-    private void Update()
-    {
-        // NO atacar si se mueve
-        if (player != null && player.isMoving)
-            return;
-
-        if (Time.time >= nextAttackTime)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Attack();
-                nextAttackTime = Time.time + (1f / attackRate);
-            }
-        }
-    }
+    public bool isAttacking = false;
 
     public void Attack()
     {
-        if (attackPoint == null) return;
-
+        isAttacking = true;
         anim.SetBool("isAttacking", true);
 
-        // Ajustar hitbox al lado correcto
-        float dir = player.isFacingRight ? 1f : -1f;
+        // Obtener la dirección horizontal actual del animator
+        float dirX = anim.GetFloat("Horizontal");
 
-        attackPoint.localPosition = new Vector3(
-            Mathf.Abs(originalOffset.x) * dir,
-            originalOffset.y,
-            originalOffset.z
-        );
+        // Si no hay input, usa la última dirección almacenada
+        if (dirX == 0)
+            dirX = lastAttackDirection.x;
 
-        // Detectar enemigos
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
+        // Almacenar la dirección final solo en eje X
+        lastAttackDirection = new Vector2(dirX, 0);
+
+        // Pasar la dirección al animator
+        anim.SetFloat("AttackX", lastAttackDirection.x);
+    }
+
+    // Este método lo llamas desde un Animation Event al final del ataque
+    public void FinishAttacking()
+    {
+        isAttacking = false;
+        anim.SetBool("isAttacking", false);
+
+        // Detección de golpe
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(
             attackPoint.position,
-            attackRange,
-            enemyLayers
+            weaponRange,
+            enemyLayer
         );
 
-        foreach (Collider2D enemy in hits)
+        if (enemies.Length > 0)
         {
-            Enemy_Health eh = enemy.GetComponent<Enemy_Health>();
-            if (eh != null)
-                eh.ChangeHealth(-damage);
+            enemies[0].GetComponent<Enemy_Health>()?.ChangeHealth(-damage);
         }
     }
 
-    // 🔥 ESTE ES EL NOMBRE EXACTO QUE DEBE TENER EN TU ANIMACIÓN
-    public void FinishAttacking()
-    {
-        anim.SetBool("isAttacking", false);
-    }
-
+    // Para visualizar el rango de ataque en el editor
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
+
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        Gizmos.DrawWireSphere(attackPoint.position, weaponRange);
     }
 }

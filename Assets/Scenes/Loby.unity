@@ -1715,7 +1715,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.341032, y: 7.6249437, z: -9.835513}
+  m_LocalPosition: {x: -9.570165, y: 7.624104, z: -9.835513}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1766,13 +1766,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ecdfe4b6f794c45489896bd2a883610c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.24
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 190
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -4689,14 +4689,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6f5863034c02b4886eb773dfe4ef21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1584695341}
   attackPoint: {fileID: 1869236125}
-  attackRange: 0.5
-  enemyLayers:
+  weaponRange: 3
+  enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
-  attackRate: 2
+    m_Bits: 64
   damage: 1
+  lastAttackDirection: {x: 0, y: 0}
+  anim: {fileID: 1584695341}
+  isAttacking: 0
 --- !u!114 &1584695353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5525,7 +5526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 0}
+  m_AnchoredPosition: {x: 0.5, y: 0.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1869236126
@@ -6287,6 +6288,10 @@ PrefabInstance:
       propertyPath: player_Combat
       value: 
       objectReference: {fileID: 1584695347}
+    - target: {fileID: 5131961182598218439, guid: 991339d85f6c3c149a27f59f64017c69, type: 3}
+      propertyPath: defaultStunTime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6545191628150993717, guid: 991339d85f6c3c149a27f59f64017c69, type: 3}
       propertyPath: m_Name
       value: Walter_0
